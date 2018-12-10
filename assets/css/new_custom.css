@@ -54,6 +54,10 @@
           font-family: "GothamRounded-Medium";
           src: url('../bootstrap/fonts/GothamRounded-Medium.otf');
           }
+@font-face {
+            font-family: "GothamRounded-Book";
+            src: url('../bootstrap/fonts/GothamRounded-Book.otf');
+            }
 
       
 
@@ -214,7 +218,11 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .bg-img {
     /* The image used */
-    background-image: url("../images/header_image.png");
+    background-image: url("../images/header768x1024px.jpg");
+    height: 1024px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
    
   }
 }
@@ -222,7 +230,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
   .bg-img {
     /* The image used */
-    background-image: url("../images/header_image.png");
+    background-image: url("../images/header481x767px.jpg");
 
    height: 692px;
     /* Center and scale the image nicely */
@@ -238,10 +246,9 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .bg-img {
     /* The image used */
-    background-image: url("../images/header_image.png");
+    background-image: url("../images/header320x480px.jpg");
 
-    min-height: 479px;
-
+   height: 482px;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -256,7 +263,7 @@
   /* The image used */
   background-image: url("../images/image_kuning.png");
   height: 235px;
-  margin-top: 190px;
+  margin-top: -15px;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -269,9 +276,47 @@
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   .header-bawah {
-    margin-top: 665px;
+    margin-top: -15px;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header-bawah {
+    margin-top: -15px;
+    height: 150px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .header-bawah {
+    /* The image used */
+    background-image: url("../images/image-kuning-mobile.png");
+    height: 767px;
+    margin-top: 25px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-bawah {
+    /* The image used */
+    background-image: url("../images/image-kuning-mobile.png");
+    height: 467px;
+    margin-top: 25px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+} 
 
 @media (min-width: 481px) and (max-width: 767px) {
   .menu-toggle {
@@ -312,29 +357,98 @@
   -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
           transition: color 0.3s, background-color 0.3s, padding 0.9s ;
 }
+
 @media (min-width: 1025px) and (max-width: 1280px) {
   .word-header{
     font-size: 38px;
     text-align: center;
     margin: 0px 280px;
-    
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .word-header{
     font-size: 28px;
-    margin-left: 40px;
+    margin-left: 200px;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    text-align: center;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
   .word-header{
-    font-size: 22px;
+    font-size: 29px;
     width: 320px;
     margin: 0px 0px;
-    padding: 240px 0px;
+    padding: 140px 0px;
+    padding-left: 20px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .word-header{
+    font-size: 24px;
+    width: 320px;
+    margin: 0px 0px;
+    padding: 120px 0px;
+    padding-left: 0px;
+  }
+} 
+
+
+.welcome{
+  font-family: "GothamRounded-Book";
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 25px;
+  margin-bottom: 55px;
+  text-align: center;
+  color: #262626;
+  z-index: 1;
+  -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+          transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .welcome{
+    font-size: 25px;
+    text-align: justify; 
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .welcome{
+    font-size: 15px;
+    text-align: justify; 
+  }
+} 
+
+
+hr.onepixel {
+  border-top: 2px solid #ffd14e;
+  border-bottom: 2px solid #ffd14e;
+  height: 0px;
+  margin-bottom: 0px;
+}
+
+.judul{
+  font-family: "GothamRounded-Medium";
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #9f790e;
+  z-index: 1;
+  -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+          transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .judul{
+    font-size: 20px;
+    text-align: center; 
+  }
+
 
 
 
