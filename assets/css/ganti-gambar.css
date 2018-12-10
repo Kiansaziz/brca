@@ -1,0 +1,126 @@
+a.pic .image2{display:none}
+a.pic:hover .image1 {display:none}
+a.pic:hover .image2 {display:inline}
+
+
+.brca {
+    width: 219px;
+    margin-top:10px;
+    margin-bottom:12px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .brca {
+        width: 199px;
+        margin-top:0px;
+        margin-bottom:10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #brca{
+        width: 219px;
+        margin-top:0px;
+        margin-bottom:10px;
+       
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca{
+        width: 179px;
+        margin-top:10px;
+        margin-bottom:12px;
+       
+    }
+} 
+
+#brca-image{
+    width: 219px;
+    margin-top:10px;
+    margin-bottom:12px;
+    margin-left:66px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+#brca-image{
+        width: 199px;
+        margin-top:0px;
+        margin-bottom:10px;
+        margin-left:43px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #brca-image{
+        width: 219px;
+        margin-top:10px;
+        margin-bottom:12px;
+        margin-left:122px;
+       
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    #brca-image{
+        margin-left:112px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    #brca-image{
+        width: 179px;
+        margin-top:10px;
+        margin-bottom:12px;
+        margin-left: 52px;
+       
+    }
+} 
+
+
+
+@font-face {
+    font-family: "GothamRounded-Book";
+    src: url('../bootstrap/fonts/GothamRounded-Book.otf');
+    }
+
+.caption-judul {
+  font-family: "GothamRounded-Book";
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: justify;
+  color: #9f790e;
+  margin-top: -5px;
+  z-index: 1;
+  -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+          transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+  }
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .caption-judul {
+        font-size: 14.8px;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .caption-judul {
+            margin-bottom: -20px;
+            }
+        }
+    }
+    @media (min-width: 481px) and (max-width: 767px) {
+       .caption-judul {
+           margin-bottom: -15px;
+       }
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+        .caption-judul {
+            font-size: 14.9px;
+            margin-bottom:-15px;
+            }
+    } 
+
+  .the-grid .row .thumbnail{
+    border: 0px;
+    box-shadow: none;
+    border-radius:0px;
+    margin-top: 45px;
+    }
+
