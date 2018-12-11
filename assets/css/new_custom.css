@@ -388,7 +388,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .word-header{
     font-size: 24px;
-    width: 320px;
+    width: 300px;
     margin: 0px 0px;
     padding: 120px 0px;
     padding-left: 0px;
@@ -409,6 +409,7 @@
   -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
           transition: color 0.3s, background-color 0.3s, padding 0.9s ;
 }
+
 @media (min-width: 481px) and (max-width: 767px) {
   .welcome{
     font-size: 25px;
@@ -442,14 +443,35 @@ hr.onepixel {
           transition: color 0.3s, background-color 0.3s, padding 0.9s ;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .judul{
+    font-size: 27px;
+    text-align: center;
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .judul{
+    font-size: 26px;
+    text-align: center;
+}
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
   .judul{
     font-size: 20px;
     text-align: center; 
   }
+}
 
 
+
+.alamat-bg{
+  background-color: #b3b3b3;
+  width: 734px;
+  height: 450px;
+  margin-left: -74px;
+}
 
 
 

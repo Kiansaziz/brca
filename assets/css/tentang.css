@@ -1,0 +1,132 @@
+.tentang{
+        /* The image used */
+        background-image: url("../images/logo-cancervue-bg.png");
+        margin-top: -15px;
+        width: 100%;
+        height: 250px;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        /* Needed to position the navbar */
+        position: relative;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .tentang{
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tentang{
+        width: 100%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .tentang{
+        background-image: url("../images/logo-cancervue-bg-481px.png");
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+
+@font-face {
+    font-family: "GothamRounded-Medium";
+    src: url('../bootstrap/fonts/GothamRounded-Medium.otf');
+    }
+.tentang-judul{
+    font-family: "GothamRounded-Medium"; 
+    font-size:22px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .tentang-judul{
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tentang-judul{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .tentang-judul{
+        font-size: 17px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .tentang-judul{
+        font-size: 17px;
+        
+    }
+} 
+
+@font-face {
+    font-family: "Gotham-Light";
+    src: url('../bootstrap/fonts/Gotham-Light.otf');
+    }
+.tentang-text{
+    font-family: "Gotham-Light";
+    font-size:22px;
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+    opacity: 0.8;
+    
+
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .tentang-text{
+        font-size:20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tentang-text{
+        font-size:18px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .tentang-text{
+        font-size:17px;
+        text-align: justify;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .tentang-text{
+        font-size:16px;
+        text-align: justify;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+*/

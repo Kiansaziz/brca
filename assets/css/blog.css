@@ -1,0 +1,259 @@
+.blog{
+    background-color: #ffd14e;
+    margin-top: 30px;
+    width: 100%;
+   
+}
+
+.judul-blog{
+    font-family: "GothamRounded-Medium";
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px 0px ;
+    z-index: 1;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+            transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+
+@font-face {
+    font-family: "GothamRounded-Medium";
+    src: url('../bootstrap/fonts/GothamRounded-Medium.otf');
+    }
+
+@font-face {
+        font-family: "GothamRounded-Book";
+        src: url('../bootstrap/fonts/GothamRounded-Book.otf');
+        }
+.see{
+    font-family: "GothamRounded-Book";
+    background-color: #ffd14e;
+    border: 2px solid #ffd14e;
+    border-radius: 18px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -30px;
+    color: black;
+}
+
+
+@media (min-width:  768px) and (max-width: 1024px) {
+    .see{
+        margin: auto;
+        font-size: 18px;
+        width: 180px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .see{
+        margin: auto;
+        font-size: 16px;
+        width: 160px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .see{
+        margin: auto;
+        font-size: 15px;
+        width: 150px;
+    }
+} 
+
+
+
+@font-face {
+    font-family: "GothamRounded-Book";
+    src: url('../bootstrap/fonts/GothamRounded-Book.otf');
+    }
+
+
+.blog-caption{
+    font-family: "GothamRounded-Medium";
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 0;
+    color: black;
+    z-index: 1;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+            transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .blog-caption{
+        font-family: "GothamRounded-Medium";
+        font-size: 22px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-align: justify;
+        color: black;
+        margin-top:20px; 
+        z-index: 1;
+        -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+                transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .blog-caption{
+        font-family: "GothamRounded-Medium";
+        font-size: 22px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-align: justify;
+        color: black;
+        margin-top: 20px;
+        z-index: 1;
+        -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+                transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+    }
+    
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .blog-caption{
+        font-family: "GothamRounded-Medium";
+        font-size: 22px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-align: justify;
+        color: black;
+        margin-top: 20px;
+        z-index: 1;
+        -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+                transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+    }
+} 
+
+@font-face {
+    font-family: "Gotham-Light";
+    src: url('../bootstrap/fonts/Gotham-Light.otf');
+    }
+
+.blog-text-caption{
+    font-family: "Gotham-Light";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+   
+    text-align: justify;
+    padding-bottom: 9px ;
+    z-index: 1;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+            transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .blog-text-caption{
+        font-family: "Gotham-Light";
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+   
+    text-align: justify;
+    padding-bottom: 9px ;
+    z-index: 1;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+            transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .blog-text-caption{
+        font-family: "Gotham-Light";
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+       
+        text-align: justify;
+        padding-bottom: 9px ;
+        z-index: 1;
+        -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+                transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+    }
+    
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .blog-text-caption{
+        font-family: "Gotham-Light";
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+       
+        text-align: justify;
+        padding-bottom: 9px ;
+        z-index: 1;
+        -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+                transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+    }
+    
+} 
+
+.blog-caption-2{
+    font-family: "GothamRounded-Medium";
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: black;
+    margin-top: 0;
+    z-index: 1;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+            transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+
+.blog-text-caption-2{
+    font-family: "Gotham-Light";
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+   
+    text-align: justify;
+    padding-bottom: 9px ;
+    z-index: 1;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+            transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+#bawahan-blog{
+    padding-bottom: 20px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    #bawahan-blog{
+        padding:auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #bawahan-blog{
+        padding-bottom: 0px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    #bawahan-blog{
+        padding-bottom: 0px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    #bawahan-blog{
+        padding-bottom: 0px;
+    }
+} 
+
+
+  
+  
+  
+  /* mouse over link */
+  a:hover {
+    color: #ffd14e;
+    text-decoration-line: none;
+  }
+
+ a:active {
+    color:black;
+    text-decoration-line: none;
+  }
