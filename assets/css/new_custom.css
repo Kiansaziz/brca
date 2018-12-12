@@ -290,7 +290,7 @@
     /* The image used */
     background-image: url("../images/image-kuning-mobile.png");
     height: 767px;
-    margin-top: 25px;
+    margin-top: 40px;
   
     /* Center and scale the image nicely */
     background-position: center;
@@ -362,26 +362,28 @@
   .word-header{
     font-size: 38px;
     text-align: center;
-    margin: 0px 280px;
+    padding: 0px;
+    padding-left: 297.9px;
+    padding-top: 240px;
+   
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .word-header{
     font-size: 28px;
-    margin-left: 200px;
+    width: 50%;
     margin-top: -100px;
-    margin-bottom: 10px;
     text-align: center;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
   .word-header{
     font-size: 29px;
-    width: 320px;
+    width: 350px;
     margin: 0px 0px;
     padding: 140px 0px;
-    padding-left: 20px;
+    padding-left: 40px;
   }
 }
 
@@ -391,7 +393,7 @@
     width: 300px;
     margin: 0px 0px;
     padding: 120px 0px;
-    padding-left: 0px;
+    padding-left: 20px;
   }
 } 
 
@@ -466,12 +468,7 @@ hr.onepixel {
 
 
 
-.alamat-bg{
-  background-color: #b3b3b3;
-  width: 734px;
-  height: 450px;
-  margin-left: -74px;
-}
+
 
 
 

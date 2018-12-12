@@ -1,0 +1,195 @@
+/* Map */
+.bg-map{
+    margin-top: 30px;
+    width: 100%;
+    margin-left:-15px;
+    margin-right: 0px;
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .bg-map{
+        margin-left:-15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+.bg-map-atur{
+    width: 90%;
+    height: 350px;
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .bg-map-atur{
+        width: 104%;
+        height: 350px;
+        margin-top: 150px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-map-atur{
+        width: 106.8%;
+        height: 350px;
+    }   
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-map-atur{
+        width: 110.5%;
+        height: 350px;
+    }   
+} 
+
+/* Map */
+
+/* Judul dan Text ALamat */
+.bg-alamat{
+    background-color: #b3b3b3;
+    margin-top: 30px;
+    width: 119.3%;
+    
+    margin-left:-109px;
+    margin-right: 0px;
+    height: 350px;
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .bg-alamat{
+        margin-left: -94px;
+        width: 122.5%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .bg-alamat{
+        
+        width: 116.8%;
+        margin-top:-4px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-alamat{
+        width: 127.5%;
+        height: 350px;
+        margin-top: -5px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-alamat{
+        width: 142.9%;
+        height: 350px;
+        margin-top: -5px;
+    }
+}
+    
+
+/* Judul dan Text ALamat */
+
+
+
+
+
+
+
+
+
+
+
+
+/* .alamat-map{
+    width: 90%;
+    height: 400px;
+    margin-left: -14px;
+}
+
+
+.alamat{
+    background-color: #b3b3b3;
+    width: 100%;
+    
+  }
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .alamat-bg{
+        background-color: #b3b3b3;
+        
+      }
+      
+}
+
+  .alamat-image{
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+
+
+
+@font-face {
+    font-family: "GothamBold";
+    src: url('../bootstrap/fonts/GothamBold.ttf');
+    }
+
+.alamat-heading{
+    font-size: 19px;
+    font-family: "GothamBold";
+    font-weight: 200;
+    color: white;
+    margin-left: 140px;
+}
+
+
+
+
+@font-face {
+    font-family: "GothamRounded-Medium";
+    src: url('../bootstrap/fonts/GothamRounded-Medium.otf');
+    }
+
+.alamat-text{
+    font-size: 17px;
+    font-family: "GothamRounded-Medium";
+    font-weight: 200;
+    color: white;
+    margin-left: 140px;
+}
+ */
+
+
+
+/* 
+a.pic .image2{display:none}
+a.pic:hover .image1 {display:none}
+a.pic:hover .image2 {display:inline}
+
+.fb{
+    width: 5%;
+}
+.ig{
+    width: 5%;
+}
+
+.fb{
+    margin-left: 140px;
+} */
+
+
+
+
+
+
+
+
+
+/* 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+*/

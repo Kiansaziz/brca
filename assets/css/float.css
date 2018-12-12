@@ -1,0 +1,28 @@
+.floatwa {
+    position:fixed;
+    bottom:0px;
+    right: 0px;
+    background-color:transparent;
+    width:10%;
+    z-index:1000;
+    padding:2px;
+    margin:auto;
+    text-align:center;
+    float:none;
+    box-shadow: 0px -2px 2px #c0c0c0;
+    }
+    .tombolwa {
+    border: 1px #56aa71 solid;
+    background-color:#2f7e49;
+    width:100%;
+    padding:4px;
+    text-align:center;
+    margin:0;
+    border-radius: 0px;
+    margin:auto;
+    text-align:center;
+    float:none;
+    }
+    .floatwa a{
+    color:white;
+    }
