@@ -1,28 +1,155 @@
-.floatwa {
-    position:fixed;
-    bottom:0px;
-    right: 0px;
-    background-color:transparent;
-    width:10%;
-    z-index:1000;
-    padding:2px;
-    margin:auto;
-    text-align:center;
-    float:none;
-    box-shadow: 0px -2px 2px #c0c0c0;
+.menu {
+    position: fixed;
+    right: -20px;
+    top: 92%;
+    width: 8em;
+    margin-top: -2.5em;
+  }
+
+.wa{
+  width: 65%;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .menu {
+    position: fixed;
+    right: -20px;
+    top: 91%;
+    width: 8em;
+    margin-top: 2.5em;
+  }
+
+.wa{
+  width: 60%;
+}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .menu {
+    position: fixed;
+    right: -47px;
+    top: 91%;
+    width: 8em;
+    margin-top: 2.5em;
+  }
+
+.wa{
+  width: 50%;
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .menu {
+    position: fixed;
+    right: -47px;
+    top: 91%;
+    width: 8em;
+    margin-top: 2.5em;
+  }
+
+.wa{
+  width: 50%;
+}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .menu {
+    position: fixed;
+    right: -45px;
+    top: 91%;
+    width: 8em;
+    margin-top: -2em;
+  }
+
+.wa{
+  width: 55%;
+}
+}
+
+
+
+  a.menu .image-wa-2{display:none}
+  a.menu:hover .image-wa-1 {display:none}
+  a.menu:hover .image-wa-2 {display:inline}
+
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    width: 3.2%;
+    right: 34px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #b3b3b3;
+    border-radius: 100%;
+    color: white;
+    cursor: pointer;
+    padding:;
+    border: 2px solid #919090;
+    
+  }
+  
+  #myBtn:hover {
+    background-color: #ffd14e;
+    border: 2px solid #fdc52b;
+    border-radius: 100%;
+  }
+
+  .up{
+    width: 80%;
+    padding: 10px 0px;
+
+    
+  }
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    #myBtn {
+      width: 3.3%;
+      right: 40px;
+      bottom: 86px;
     }
-    .tombolwa {
-    border: 1px #56aa71 solid;
-    background-color:#2f7e49;
-    width:100%;
-    padding:4px;
-    text-align:center;
-    margin:0;
-    border-radius: 0px;
-    margin:auto;
-    text-align:center;
-    float:none;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    #myBtn {
+      width: 4.3%;
+      right: 20px;
+      bottom: 86px;
     }
-    .floatwa a{
-    color:white;
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    #myBtn {
+      width: 7.3%;
+      right: 19px;
+      bottom: 86px;
     }
+  }
+  
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    #myBtn {
+      width: 11.3%;
+      right: 18px;
+      bottom: 75px;
+    }
+  } 
+
+
+
+  /* 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+*/

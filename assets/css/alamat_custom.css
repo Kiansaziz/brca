@@ -18,8 +18,8 @@
 } 
 
 .bg-map-atur{
-    width: 90%;
-    height: 350px;
+    width: 100%;
+    height: 400px;
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
 }
@@ -49,37 +49,39 @@
 .bg-alamat{
     background-color: #b3b3b3;
     margin-top: 30px;
-    width: 119.3%;
+    width: 109.45%;
     
-    margin-left:-109px;
+    margin-left:-45px;
     margin-right: 0px;
-    height: 350px;
+    height: 400px;
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
     .bg-alamat{
-        margin-left: -94px;
-        width: 122.5%;
+        margin-left: -44px;
+        width: 112.3%;
     }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .bg-alamat{
         
-        width: 116.8%;
+        width: 110.8%;
+        height: 350px;
         margin-top:-4px;
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
     .bg-alamat{
-        width: 127.5%;
+        width: 117.7%;
         height: 350px;
         margin-top: -5px;
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .bg-alamat{
-        width: 142.9%;
+        width: 127.7%;
         height: 350px;
         margin-top: -5px;
+        padding-top: 20px;
     }
 }
     
@@ -88,38 +90,17 @@
 
 
 
-
-
-
-
-
-
-
-
-
-/* .alamat-map{
-    width: 90%;
-    height: 400px;
-    margin-left: -14px;
-}
-
-
-.alamat{
-    background-color: #b3b3b3;
-    width: 100%;
-    
-  }
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    .alamat-bg{
-        background-color: #b3b3b3;
-        
-      }
       
-}
 
   .alamat-image{
     margin-top: 40px;
-    margin-left: 130px;
+    margin-left: 90px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .alamat-image{
+       width: 55%;
+    }
 }
 
 
@@ -135,8 +116,17 @@
     font-family: "GothamBold";
     font-weight: 200;
     color: white;
-    margin-left: 140px;
+    margin-left: 100px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .alamat-heading{
+        font-size: 15.5px;
+
+    }
+}
+
+
 
 
 
@@ -151,27 +141,51 @@
     font-family: "GothamRounded-Medium";
     font-weight: 200;
     color: white;
-    margin-left: 140px;
+    margin-left: 100px;
 }
- */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .alamat-text{
+        font-size: 13px;
+    }
+}
+ 
 
 
 
-/* 
-a.pic .image2{display:none}
-a.pic:hover .image1 {display:none}
-a.pic:hover .image2 {display:inline}
+
+a.pic .image-2{display:none}
+a.pic:hover .image-1 {display:none}
+a.pic:hover .image-2 {display:inline}
 
 .fb{
-    width: 5%;
+    width: 4%;
 }
 .ig{
-    width: 5%;
+    width: 4%;
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+    .fb{
+        width: 6%;
+    }
+    .ig{
+        width: 6%;
+    }
+    
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .fb{
+        width: 7%;
+    }
+    .ig{
+        width: 7%;
+    }
+} 
+
 .fb{
-    margin-left: 140px;
-} */
+    margin-left: 100px;
+}
 
 
 
