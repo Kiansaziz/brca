@@ -1,9 +1,13 @@
 .tentang{
         /* The image used */
-        background-image: url("../images/logo-cancervue-bg.png");
-        margin-top: 15px;
-        width: 100%;
-        height: 250px;
+       
+        background-color:#ffd14e;
+        height: 100%;
+        border-radius: 25px;
+        border: 1px solid #fdc529;
+        box-shadow: 10px;
+        margin-top: 55px;
+        padding : 20px 30px;
         /* Center and scale the image nicely */
         background-position: center;
         background-repeat: no-repeat;
@@ -15,35 +19,49 @@
 
 @media (min-width: 1025px) and (max-width: 1280px) {
     .tentang{
-        width: 100%;
-        margin-top: -20px;
+        
+        background-color:#ffd14e;
+        height: 100%;
+        border-radius: 25px;
+        border: 1px solid #fdc529;
+        box-shadow: 10px;
+        margin-top: 55px;
     }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .tentang{
-        margin-top: -10px;
+       
+        background-color:#ffd14e;
+        height: 100%;
+        border-radius: 25px;
+        border: 1px solid #fdc529;
+        box-shadow: 10px;
+        margin-top: 55px;
+        margin-bottom: -120px;
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
     .tentang{
-        background-image: url("../imagex.png");
+        
         background-color:#ffd14e;
         height: 100%;
         border-radius: 25px;
         border: 1px solid #fdc529;
         box-shadow: 10px;
         margin-top: 55px;
+        padding : 10px 10px;
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .tentang{
-        background-image: url("../imagex.png");
+       
         background-color:#ffd14e;
         height: 100%;
         border-radius: 25px;
         border: 1px solid #fdc529;
         box-shadow: 10px;
         margin-top: 55px;
+        padding : 10px 10px;
     }
 } 
 
@@ -54,35 +72,35 @@
     }
 .tentang-judul{
     font-family: "GothamRounded-Medium"; 
-    font-size:22px;
+    font-size:18px;
     font-weight: 600;
     color: black;
     text-align: center;
-    margin-top: 25px;
+    
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
     .tentang-judul{
-        font-size: 20px;
-        margin-top: 15px;
+        font-size: 17px;
+      
     }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .tentang-judul{
-        font-size: 18px;
-        margin-top: 37px;
+        font-size: 15px;
+       
     }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
     .tentang-judul{
-        font-size: 17px;
-        margin-top: -35px;
+        font-size: 13px;
+       
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .tentang-judul{
-        font-size: 17px;
-        margin-top: -40px;
+        font-size: 12px;
+      
         padding: 0px 10px;
         
     }
@@ -94,7 +112,7 @@
     }
 .tentang-text{
     font-family: "Gotham-Light";
-    font-size:22px;
+    font-size:18px;
     color: black;
     text-align: center;
     margin-top: 25px;
@@ -104,20 +122,20 @@
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
     .tentang-text{
-        font-size:20px;
+        font-size:17px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .tentang-text{
-        font-size:18px;
+        font-size:15px;
        
     }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
     .tentang-text{
-        font-size:17px;
+        font-size:13px;
         text-align: justify;
         padding: 0px 25px;
         padding-bottom:10px;
@@ -125,7 +143,7 @@
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .tentang-text{
-        font-size:15px;
+        font-size:12px;
         text-align: justify;
         padding : 10px 20px;
         
