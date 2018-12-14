@@ -12,3 +12,5 @@ if (scroll >= 100) {
   $(".navbar-default").removeClass("darkHeader")
 }
 });
+
+

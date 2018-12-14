@@ -12,7 +12,8 @@ animateApp.config(function($routeProvider) {
 
         // home page
         .when('/', {
-            templateUrl: 'views/page-home.html'
+            templateUrl: 'views/page-home.html',
+            controller:'homeController'
         })
 
         // about page
@@ -22,9 +23,9 @@ animateApp.config(function($routeProvider) {
         })
 
         // contact page
-        .when('/tentang-kami', {
-            templateUrl: 'views/page-contact.html',
-            controller: 'contactController'
+        .when('/layanan-hcs', {
+            templateUrl: 'views/page-hcs.html',
+            controller: 'hcsController'
         });
 
 });

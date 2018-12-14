@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/new_custom.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/float.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
 
     <!-- JS -->
     <!-- load angular, ngRoute, ngAnimate -->
@@ -78,9 +79,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand header_image" href="#"><img src="assets/images/cancervue_logo_home.png" alt="" class="img-responsive"></a>
-            </div>
+                </button >
+                   <a class="navbar-brand header_image" href="#" ng-init="myLogo = 'assets/images/cancervue_logo_home.png'"><img ng-src="{{myLogo}}" alt="" class="img-responsive"></a>
+                </div>
 
 
             <div class="collapse navbar-collapse toggle-header" id="bs-example-navbar-collapse-1">
@@ -89,7 +90,7 @@
                 <li class="dropdown ">
                   <a  class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LAYANAN <span class="caret"></span></a>
                   <ul class="dropdown-menu menu-toggle">
-                    <li><a href="#">HCS</a></li>
+                    <li><a href="#!layanan-hcs" onclick="topFunction()">HCS</a></li>
                     <li><a href="#">BRCA</a></li>
                     <li><a href="#">SMA</a></li>
                   </ul>
@@ -103,22 +104,22 @@
       </nav>
 
 
-<div ng-view></div>
+  <div class="page {{ pageClass }}" ng-view  ng-init="init()"></div>
 <!-- 
 <div id="menu">
     <a href="#"><img src="assets/images/wa-colored.png"></a>
 </div> -->
 
-<a class="menu" href="LINK TUJUAN JIKA GAMBAR DIKLIK">
-    <img class="image-wa-1 wa" src="assets/images/wa-colored-new-1.png"/>
-    <img class="image-wa-2 wa" src="assets/images/wa-colored-new-2.png"  />
+<a class="menu" ng-init="waOne='assets/images/wa-colored-new-1.png'; waTwo='assets/images/wa-colored-new-2.png'" href="LINK TUJUAN JIKA GAMBAR DIKLIK">
+    <img class="image-wa-1 wa" ng-src="{{waOne}}"/>
+    <img class="image-wa-2 wa" ng-src="{{waTwo}}"  />
 </a>
 
 
 
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">
-    <img class="up" src="assets/images/segitiga.png"/>
+<button onclick="topFunction()" id="myBtn" title="Go to top" ng-init="myUp='assets/images/segitiga.png'">
+    <img class="up" ng-src="{{myUp}}"/>
 </button>
 
 
@@ -154,6 +155,10 @@ function topFunction() {
     <script src="assets/bootstrap/js/bootstrap.js"></script>
     <script src="app/app.js"></script>
     <script src="app/jscustom/scrol.js"></script>
+
+    <script src="app/controller/hcsController.js"></script>
+    <script src="app/controller/homeController.js"></script>
+    
 
 </body>
 </html>

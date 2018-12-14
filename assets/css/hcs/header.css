@@ -1,0 +1,116 @@
+/* Barisan 1 */
+.hcs{
+    background: url('../../images/hcs/image-header.jpg');
+}
+
+
+.word-header-hcs{
+    font-family: "GothamRounded-Medium";
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 260px;
+    text-align: right;
+    color: #6d6d6d;
+    z-index: 1;
+    -webkit-transition: color 0.3s, background-color 0.3s, padding 0.9s, opacity: 0.9s;
+            transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+  }
+
+/* Barisan 1 */
+
+
+/* Barisan ke 2 */
+.hcs-logo{
+    padding:0px 0px 0px 195px;
+}
+
+
+.hcs-2{
+    background: url('../../images/hcs/background-dan-tabel-apa-itu-cancer-bawaan.png');
+    margin-top: -59px;
+}
+
+@font-face {
+    font-family: "GothamRounded-Medium";
+    src: url('../bootstrap/fonts/GothamRounded-Medium.otf');
+    }
+.header-hcs-2{
+    color:white;
+    font-family: "GothamRounded-Medium";
+    margin-top: 0px;
+    padding-top: 15px;
+    font-size: 29px;
+    -webkit-transition: color 0.3s, background-color 0.5s, padding 0.9s, opacity: 5s;
+    transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+@font-face {
+    font-family: "GothamRounded-Book";
+    src: url('../bootstrap/fonts/GothamRounded-Book.otf');
+    }
+.caption-hcs-2{
+    color:black;
+    font-family: "GothamRounded-Book";
+    margin-top: 0px;
+    padding-top: 45px;
+    font-size: 22px;
+    text-align: justify;
+    -webkit-transition: color 0.3s, background-color 0.5s, padding 0.9s, opacity: 5s;
+    transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+/* Barisan ke 2 */
+
+
+.hcs-3{
+    background: url('../../images/hcs/background-hereditary-cancer-screening.png');
+    margin-top: -112px;
+   
+    background-repeat: no-repeat;
+}
+
+
+
+.header-hcs-3{
+    color:white;
+    font-family: "GothamRounded-Medium";
+    margin: 0px;
+    padding-top: 140px;
+    font-size: 30px;
+    -webkit-transition: color 0.3s, background-color 0.5s, padding 0.9s, opacity: 5s;
+    transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+}
+
+.caption-hcs-3{
+    color : white;
+    font-family: "GothamRounded-Book";
+    margin: auto;
+    padding: auto;
+    padding-top:20px;
+    font-size: 20px;
+    font-weight: 10;
+    text-align: justify;
+    -webkit-transition : color 0.5s, background-color 0.5s, padding 0.9s, opacity 5s;
+    transition: color 0.3, background-color 0.5s;
+}
+
+
+
+.bungkus-pelajari{
+    padding-top: 20px;
+    margin: auto;
+    padding-left: auto;
+}
+a.hcs-pelajari .image-pelajari-2{display:none}
+a.hcs-pelajari:hover .image-pelajari-1 {display:none}
+a.hcs-pelajari:hover .image-pelajari-2 {display:inline}
+
+.button-hcs-3{
+    background: transparent;
+    border: 0px;
+    margin: auto;
+    
+}
+
+/* padding 1. Rata atas , 2.Rata Bawah , 3.Rata Kanan , 4.Rata Kiri */
