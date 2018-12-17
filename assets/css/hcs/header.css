@@ -3,6 +3,28 @@
     background: url('../../images/hcs/image-header.jpg');
 }
 
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .hcs{
+        background: url('../../images/hcs/image-header-1025x1280.jpg');
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hcs{
+        background: url('../../images/hcs/image-header-768x1024.jpg');
+        margin-top: -100px;
+    }
+    
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs{
+        background: url('../../images/hcs/image-header-481x767.jpg');
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs{
+        background: url('../../images/hcs/image-header-320x480.jpg');
+    }
+} 
 
 .word-header-hcs{
     font-family: "GothamRounded-Medium";
@@ -17,19 +39,127 @@
             transition: color 0.3s, background-color 0.3s, padding 0.9s ;
   }
 
+@media (min-width: 1025px) and (max-width: 1280px) {
+   .word-header-hcs{
+       text-align: center;
+        margin-left: -150px;
+        margin-top: -100px;
+   }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .word-header-hcs{
+        margin-left: 0px;
+        text-align: center;
+        font-size: 25px;
+        
+    
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .word-header-hcs{
+        margin-right: 25px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .word-header-hcs{
+        font-size: 24px;
+        margin-right: 15px;
+    }
+}
+
+.hcs-logo{
+    padding:0px 0px 0px 195px;
+}
+
+ @media (min-width: 1025px) and (max-width: 1280px) {
+    .hcs-logo{
+        padding:0px 0px 0px 195px;
+        margin-left: -95px;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+.hcs-logo{
+    padding: 0px 0px 0px 325px;
+    margin-left: -160px;
+    margin-top: 0px;
+    margin-bottom : 15px;
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-logo{
+        padding: 0px 0px 0px 95px;
+        margin-top : -90px;
+        margin-left: 10px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-logo{
+        padding: 0px 0px 0px 0px;
+        margin-left: 10px; 
+        margin-top: -150px;
+        
+
+    }
+}
+
 /* Barisan 1 */
 
 
 /* Barisan ke 2 */
-.hcs-logo{
-    padding:0px 0px 0px 195px;
-}
+
 
 
 .hcs-2{
     background: url('../../images/hcs/background-dan-tabel-apa-itu-cancer-bawaan.png');
     margin-top: -59px;
 }
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .hcs-2{
+      background: url('../../images/hcs/background-dan-tabel-apa-itu-cancer-bawaan.png');
+
+      margin-top: -50px;
+      height: 584px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hcs-2{
+        background: url('../../images/hcs/background-dan-tabel-apa-itu-cancer-bawaan.png');
+  
+        margin-top: -38px;
+        height: 444px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+  
+      }
+
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-2{
+        background: url('../../images/hcs/image-background-481x767.png');
+        margin-top: -132px;
+        background-repeat: no-repeat;
+     
+  
+      }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-2{
+        background: url('../../images/hcs/image-background-320x480.png');
+        margin-top: -120px;
+        background-repeat: no-repeat;
+     
+  
+      }
+} 
+
 
 @font-face {
     font-family: "GothamRounded-Medium";
@@ -59,16 +189,93 @@
     -webkit-transition: color 0.3s, background-color 0.5s, padding 0.9s, opacity: 5s;
     transition: color 0.3s, background-color 0.3s, padding 0.9s ;
 }
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .header-hcs-2{
+        font-size : 25px;
+        padding-top : 10px;
+    }
+    .caption-hcs-2{
+        font-size: 18px;
+
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-hcs-2{
+        font-size : 17px;
+        padding-top : 10px;
+    }
+    .caption-hcs-2{
+        font-size: 15.5px;
+        padding-top : 32px;
+
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-hcs-2{
+        font-size : 25px;
+        padding : 20px;
+        padding-top : 30px;
+
+    }
+    .caption-hcs-2{
+        font-size: 20.5px;
+        padding : 20px;
+        padding-top : 32px;
+
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .header-hcs-2{
+        font-size : 15px;
+        padding : 10px;
+        padding-top : 22px;
+
+    }
+    .caption-hcs-2{
+        font-size: 13.55px;
+        padding : 10px;
+        padding-top : 15px;
+        padding-bottom: 0px;
+
+    }
+} 
 
 /* Barisan ke 2 */
 
-
+/* Barisan ke 3 */
 .hcs-3{
     background: url('../../images/hcs/background-hereditary-cancer-screening.png');
     margin-top: -112px;
    
     background-repeat: no-repeat;
 }
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .hcs-3{
+        background: url('../../images/hcs/image-background-ijo-1025.png');   
+        background-repeat: no-repeat;
+      }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hcs-3{
+        background: url('../../images/hcs/image-background-ijo-768.png');
+        background-repeat: no-repeat;
+        margin-top: -93px;
+      }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-3{
+        background: url('../../images/hcs/image-background-ijo-481.jpg');
+        background-repeat: no-repeat;
+        margin-top: 0px;
+      }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-3{
+        background: url('../../images/hcs/image-background-ijo-320.jpg');
+        background-repeat: no-repeat;
+        margin-top: -24.5px;
+      }
+} 
 
 
 
@@ -95,13 +302,72 @@
     transition: color 0.3, background-color 0.5s;
 }
 
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .header-hcs-3{
+        font-size: 25px;
+        padding-top: 110px;
+    }
+    .caption-hcs-3{
+        font-size: 16px;
+        width: 129%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-hcs-3{
+        font-size: 21px;
+        padding-top: 110px;
+    }
+    .caption-hcs-3{
+        font-size: 15px;
+        padding-top:10px;
+        padding-bottom: -5px;
+        width: 60%;
+        margin-left: 0px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-hcs-3{
+        font-size: 24px;
+        padding : 10px;
+        padding-top: 40px;
+    }
+    .caption-hcs-3{
+        font-size: 17.5px;
+        padding: 10px;
+        padding-top:10px;
+        padding-bottom: -5px;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .header-hcs-3{
+        font-size: 14px;
+        padding : 10px;
+        padding-top: 15px;
+        margin-bottom: -15px;
+    }
+    .caption-hcs-3{
+        font-size: 12.5px;
+        padding: 10px;
+        padding-top:15px;
+        margin-bottom: -17px;  
+        
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+} 
 
 
 .bungkus-pelajari{
     padding-top: 20px;
     margin: auto;
     padding-left: auto;
+    
 }
+
+
 a.hcs-pelajari .image-pelajari-2{display:none}
 a.hcs-pelajari:hover .image-pelajari-1 {display:none}
 a.hcs-pelajari:hover .image-pelajari-2 {display:inline}
@@ -113,4 +379,300 @@ a.hcs-pelajari:hover .image-pelajari-2 {display:inline}
     
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+   .pa{
+       width: 60%;
+       margin-left: 5px;
+   }
+}
+
+
+/* Barisan ke 3 */
+
+/* Barisan ke 4 */
+
+.hcs-4{
+    background: url('../../images/hcs/background-siapa-yang-membutuhkan.jpg');
+    margin-top: -183px;
+   
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .hcs-4{
+        background: url('../../images/hcs/image-background-bawah1025x1280.jpg');
+        margin-top: -900px;
+       
+        background-repeat: no-repeat;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hcs-4{
+        background: url('../../images/hcs/image-background-bawah768x1024.jpg');
+        margin-top: -648px;
+       
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hcs-4{
+        background: url('../../images/hcs/image-background-bawah481x767.jpg');
+        margin-top: -294px;
+       
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .hcs-4{
+        background: url('../../images/hcs/image-background-bawah320x480.jpg');
+        margin-top: -218px;
+       
+        background-repeat: no-repeat;
+    }
+} 
+
+.posisi-hcs-4{
+    padding-top: 170px;
+}
+
+@font-face {
+    font-family: "GothamRounded-Medium";
+    src: url('../../bootstrap/fonts/GothamRounded-Medium.otf');
+    }
+
+.header-hcs-4{
+    font-family: "GothamRounded-Medium";
+    font-size: 24px;
+    
+}
+
+@font-face {
+    font-family: "GothamRounded-Book";
+    src: url('../../bootstrap/fonts/GothamRounded-Book.otf');
+    }
+.caption-hcs-4{
+    font-family : "GothamRounded-Book";
+    font-size: 21px;
+    text-align: justify;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .posisi-hcs-4{
+        padding-top: 900px;
+        width: 150%;
+        text-align: center;
+        margin-left: -635px;
+    }
+
+    .caption-hcs-4{
+        text-align: center;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .posisi-hcs-4{
+        padding-top: 650px;
+        text-align: center;
+        
+    }
+
+    .caption-hcs-4{
+        text-align: center;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .posisi-hcs-4{
+        padding-top: 430px;
+        text-align: center;
+        
+    }
+
+
+    .caption-hcs-4{
+        text-align: justify;
+        padding: 10px;
+        font-size: 18px;
+        
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .posisi-hcs-4{
+        padding-top: 330px;
+        text-align: center;
+        
+    }
+
+    .header-hcs-4{
+        font-family: "GothamRounded-Medium";
+        font-size: 18px;
+        
+    }
+
+    .caption-hcs-4{
+        text-align: justify;
+        font-size: 14px;
+        
+    }
+} 
+
+
+
+/* Barisan ke 4 */
+
+
+/* barisan 5 */
+ 
+hr.onepixcel-hcs {
+    border-top: 2px solid #4b8c21;
+    border-bottom: 2px solid #4b8c21;
+    height: 0px;
+    margin-bottom: 0px;
+       
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    hr.onepixcel-hcs {
+        margin-top: -15px;
+        margin-right: 60px;
+        margin-bottom: 30px;
+    }
+}
+  @media (min-width: 481px) and (max-width: 767px) {
+    hr.onepixcel-hcs {
+    margin-top: 140px;
+    margin-bottom: 25px;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+    hr.onepixcel-hcs {
+        margin-top: 190px;
+        margin-bottom: 19px;
+        }
+  }
+
+  .posisi-hcs-5{
+      margin-top: -100px;
+  }
+
+  @font-face {
+    font-family: "Gotham-Bold";
+    src: url('../../bootstrap/fonts/Gotham-Bold.otf');
+    }
+.header-hcs-5{
+    font-family: "Gotham-Bold";
+    color : #4b8c21;
+    text-align: center;
+    font-size : 49px;
+
+}
+
+@font-face {
+    font-family: "GothamRounded-Medium";
+    src: url('../../bootstrap/fonts/GothamRounded-Medium.otf');
+    }
+.caption-hcs-5{
+    font-family: "GothamRounded-Medium";
+    color : #4b8c21;
+    text-align:center;
+    font-size: 28px;
+}
+
+@font-face {
+    font-family: "GothamRounded-Book";
+    src: url('../../bootstrap/fonts/GothamRounded-Book.otf');
+    }
+.caption-hcs-5-1{
+    font-family: "GothamRounded-Book";
+    color : #4b8c21;
+    text-align: center;
+    font-size: 18px;
+        
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-hcs-5{
+        font-size: 39px;
+        
+    }
+    
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-hcs-5{
+        font-size: 30px;
+    }
+    .caption-hcs-5{
+        font-size: 20px;
+    }
+    .caption-hcs-5-1{
+        font-size: 16px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .header-hcs-5{
+        font-size: 20px;
+    }
+    .caption-hcs-5{
+        font-size: 17px;
+    }
+    .caption-hcs-5-1{
+        font-size: 15px;
+    }
+} 
+
+#posisi-gambar-hcs-5{
+    margin-top: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #posisi-gambar-hcs-5{
+        margin-left: 270px;
+        margin-bottom: -155px;
+        
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    #posisi-gambar-hcs-5{
+        margin-left: 143px;
+        
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #posisi-gambar-hcs-5{
+        margin-left: 88px;
+        margin-bottom: -40px;
+    }
+}
+
+.hcs-5-pelajari{
+    margin-left: -30px;
+}
+a.hcs-5-pelajari .image-hcs-5-pelajari-2{display:none}
+a.hcs-5-pelajari:hover .image-hcs-5-pelajari-1 {display:none}
+a.hcs-5-pelajari:hover .image-hcs-5-pelajari-2 {display:inline}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .ba{
+        width: 80%;
+        margin-left: 5px;
+    }
+ }
+/* barisan 5 */
+
+
 /* padding 1. Rata atas , 2.Rata Bawah , 3.Rata Kanan , 4.Rata Kiri */
+
+/* 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
+
+*/

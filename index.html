@@ -87,12 +87,21 @@
             <div class="collapse navbar-collapse toggle-header" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right" >
                 <li><a href="#">HOME</a></li>
-                <li class="dropdown ">
+                <li class="dropdown multi-level ">
                   <a  class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LAYANAN <span class="caret"></span></a>
                   <ul class="dropdown-menu menu-toggle">
-                    <li><a href="#!layanan-hcs" onclick="topFunction()">HCS</a></li>
+                    <li class="dropdown-submenu multi-level">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">HCS</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#!layanan-hcs" onclick="topFunction()">Tentang HCS</a></li>
+                            <li><a href="#!layanan-detail-hcs" onclick="topFunction()">Detail HCS</a></li>
+                            <li class="divider"></li>
+                        </ul>
+                    </li>
+                    <li class="divider"></li>
                     <li><a href="#">BRCA</a></li>
                     <li><a href="#">SMA</a></li>
+                    
                   </ul>
                 </li>
                 <li><a href="#!blog">BLOG</a></li>

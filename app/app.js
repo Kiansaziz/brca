@@ -16,16 +16,21 @@ animateApp.config(function($routeProvider) {
             controller:'homeController'
         })
 
-        // about page
+        // Blog page
         .when('/blog', {
             templateUrl: 'views/page-about.html',
             controller: 'aboutController'
         })
 
-        // contact page
+        // HCS page
         .when('/layanan-hcs', {
             templateUrl: 'views/page-hcs.html',
             controller: 'hcsController'
+        })
+
+        .when('/layanan-detail-hcs',{
+            templateUrl: 'views/page-detail-hcs.html',
+            controller  : 'hcsDetailController'
         });
 
 });
