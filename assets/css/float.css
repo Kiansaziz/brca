@@ -1,16 +1,77 @@
 .menu {
     position: fixed;
-    right: -20px;
-    top: 92%;
-    width: 8em;
-    margin-top: -2.5em;
-  }
+    right: -40px;
+    top: 84.5%;
+    width: 10%;
+}
 
 .wa{
-  width: 65%;
+  width: 60%;
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+  .menu {
+    position: fixed;
+    right: -40px;
+    top: 84.5%;
+    width: 10%;
+}
+
+.wa{
+  width: 60%;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .menu {
+    position: fixed;
+    right: -40px;
+    top: 84.5%;
+    width: 15%;
+}
+
+.wa{
+  width: 60%;
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .menu {
+    position: fixed;
+    right: -40px;
+    top: 84.5%;
+    width: 20%;
+}
+
+.wa{
+  width: 60%;
+}
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .menu {
+    position: fixed;
+    right: -30px;
+    top: 84.5%;
+    width: 30%;
+}
+  .wa{
+    width: 60%;
+  }
+}
+
+/* @media (max-width: @screen-xs-max) { 
+  .menu {
+  position: fixed;
+  right: -20px;
+  top: 92%;
+  width: 8em;
+  margin-top: -2.5em;
+}
+
+.wa{
+width: 15%;
+}
+} */
+
+/* @media (min-width: 1025px) and (max-width: 1280px) {
   .menu {
     position: fixed;
     right: -20px;
@@ -23,8 +84,6 @@
   width: 60%;
 }
 }
-
-
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .menu {
@@ -66,7 +125,7 @@
 .wa{
   width: 55%;
 }
-}
+} */
 
 
 
@@ -78,9 +137,9 @@
   #myBtn {
     display: none;
     position: fixed;
-    bottom: 100px;
+    bottom: 115px;
     width: 3.2%;
-    right: 34px;
+    right: 33px;
     z-index: 99;
     font-size: 18px;
     border: none;
@@ -109,16 +168,16 @@
   @media (min-width: 1025px) and (max-width: 1280px) {
     #myBtn {
       width: 3.3%;
-      right: 40px;
-      bottom: 86px;
+      right: 28px;
+      bottom: 106px;
     }
   }
 
   @media (min-width: 768px) and (max-width: 1024px) {
     #myBtn {
       width: 4.3%;
-      right: 20px;
-      bottom: 86px;
+      right: 28px;
+      bottom: 106px;
     }
   }
 
@@ -126,7 +185,7 @@
     #myBtn {
       width: 7.3%;
       right: 19px;
-      bottom: 86px;
+      bottom: 106px;
     }
   }
   
@@ -134,8 +193,10 @@
   @media (min-width: 320px) and (max-width: 480px) {
     #myBtn {
       width: 11.3%;
-      right: 18px;
-      bottom: 75px;
+      right: auto;
+      right: 27px;
+      
+      bottom: 106px;
     }
   } 
 

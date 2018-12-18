@@ -30,7 +30,8 @@ animateApp.config(function($routeProvider) {
 
         .when('/layanan-detail-hcs',{
             templateUrl: 'views/page-detail-hcs.html',
-            controller  : 'hcsDetailController'
+            controller  : 'hcsController',
+            css: 'app/detail.css'
         });
 
 });

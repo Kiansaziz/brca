@@ -277,41 +277,42 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
   .header-bawah {
     margin-top: -15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .header-bawah {
     margin-top: -15px;
     height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
   .header-bawah {
     /* The image used */
     background-image: url("../images/image-kuning-mobile.png");
+    
     height: 767px;
-    margin-top: 40px;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    /* Needed to position the navbar */
-    position: relative;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .header-bawah {
     /* The image used */
     background-image: url("../images/image-kuning-mobile.png");
-    height: 467px;
-    margin-top: 25px;
+    height: 679px;
+    margin-top: -20px;
   
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   
     /* Needed to position the navbar */
     position: relative;

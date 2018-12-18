@@ -1,0 +1,46 @@
+
+.hcs-detail{
+    background-image: url("../../images/hcs-detail/Hereditary.png");
+    background-repeat: no-repeat;
+    height: 450px;
+    margin-top: -137px
+    /* Center and scale the image nicely */
+}
+
+.hcs-detail-2{
+    background-image: url("../../images/hcs-detail/8-tipe-kanker.png");
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+.detail-posisi{
+    padding-top: 200px;
+    opacity: 0.9;
+    transition: padding 0.9s,;
+    -webkit-transition: padding 0.9s, ;
+}
+
+@font-face {
+    font-family: "GothamRounded-Medium";
+    src: url('../../bootstrap/fonts/GothamRounded-Medium.otf');
+    }
+.header-detail{
+    color: white;
+    font-family: "GothamRounded-Medium";
+
+    
+}
+
+@font-face {
+    font-family: "GothamRounded-Book";
+    src: url('../../bootstrap/fonts/GothamRounded-Book.otf');
+    }
+/* .header-hcs-2{
+    color:white;
+    font-family: "GothamRounded-Medium";
+    margin-top: 0px;
+    padding-top: 15px;
+    font-size: 29px;
+    -webkit-transition: color 0.3s, background-color 0.5s, padding 0.9s, opacity: 5s;
+    transition: color 0.3s, background-color 0.3s, padding 0.9s ;
+} */
