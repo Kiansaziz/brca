@@ -14,6 +14,8 @@ animateApp.controller('hcsController', function($scope) {
 
     $scope.igWhite ="instagram-white.png";
     $scope.igColor = "instagram-colored.png";
+
+    $scope.tabelKanker = "Tabel.jpg";
 });
 
 

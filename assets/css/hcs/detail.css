@@ -1,23 +1,20 @@
-
+/* Barisan 1 */
 .hcs-detail{
     background-image: url("../../images/hcs-detail/Hereditary.png");
     background-repeat: no-repeat;
-    height: 450px;
-    margin-top: -137px
+    background-size:cover;
+    background-position: center;
+    height: 550px;
+    margin-top: -140px
     /* Center and scale the image nicely */
 }
 
-.hcs-detail-2{
-    background-image: url("../../images/hcs-detail/8-tipe-kanker.png");
-    height: 450px;
-    background-repeat: no-repeat;
-}
-
 .detail-posisi{
-    padding-top: 200px;
+    padding-top: 170px;
     opacity: 0.9;
     transition: padding 0.9s,;
     -webkit-transition: padding 0.9s, ;
+    transition: color 0.3s, background-color 0.3s, padding 0.9s ;
 }
 
 @font-face {
@@ -27,7 +24,7 @@
 .header-detail{
     color: white;
     font-family: "GothamRounded-Medium";
-
+    font-size: 32px;
     
 }
 
@@ -35,6 +32,39 @@
     font-family: "GothamRounded-Book";
     src: url('../../bootstrap/fonts/GothamRounded-Book.otf');
     }
+.caption-detail{
+    color: white;
+    font-family: "GothamRounded-Book";
+    font-size : 22px;
+    text-align : justify;
+}
+
+/* Barisan 1 */
+
+
+/* Barisan 2 */
+
+.hcs-detail-2{
+    background-image: url("../../images/hcs-detail/8-tipe-kanker.png");
+    height: 290px;
+
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+    margin-top : 80px;
+}
+
+.image-detail-2{
+    margin-top : 30px;
+
+}
+
+
+/* Barisan 2 */
+
+
+
 /* .header-hcs-2{
     color:white;
     font-family: "GothamRounded-Medium";
