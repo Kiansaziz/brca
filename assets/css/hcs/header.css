@@ -1,16 +1,27 @@
 /* Barisan 1 */
 .hcs{
     background: url('../../images/hcs/image-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
     .hcs{
         background: url('../../images/hcs/image-header-1025x1280.jpg');
+        background-repeat: no-repeat;
+        background-size : cover;
+        height: 1300px;
     }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .hcs{
-        background: url('../../images/hcs/image-header-768x1024.jpg');
+        background: url('../../images/hcs/image-header-768x1024.jpg');  
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        height: 1000px;
         margin-top: -100px;
     }
     
@@ -18,11 +29,21 @@
 @media (min-width: 481px) and (max-width: 767px) {
     .hcs{
         background: url('../../images/hcs/image-header-481x767.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        height: 700px;
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .hcs{
         background: url('../../images/hcs/image-header-320x480.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        height: 520px;
     }
 } 
 
@@ -115,6 +136,7 @@
 .hcs-2{
     background: url('../../images/hcs/background-dan-tabel-apa-itu-cancer-bawaan.png');
     margin-top: -59px;
+    background-size:cover;
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
     .hcs-2{
@@ -146,15 +168,16 @@
         background: url('../../images/hcs/image-background-481x767.png');
         margin-top: -132px;
         background-repeat: no-repeat;
-     
+     background-size:cover;
   
       }
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .hcs-2{
         background: url('../../images/hcs/image-background-320x480.png');
-        margin-top: -120px;
+        margin-top: -130px;
         background-repeat: no-repeat;
+        background-size:cover;
      
   
       }
@@ -169,8 +192,9 @@
     color:white;
     font-family: "GothamRounded-Medium";
     margin-top: 0px;
-    padding-top: 15px;
-    font-size: 29px;
+    padding-top: 12px;
+    margin-left: -40px;
+    font-size: 30px;
     -webkit-transition: color 0.3s, background-color 0.5s, padding 0.9s, opacity: 5s;
     transition: color 0.3s, background-color 0.3s, padding 0.9s ;
 }
@@ -185,6 +209,7 @@
     margin-top: 0px;
     padding-top: 45px;
     font-size: 22px;
+    margin-left: -40px;
     text-align: justify;
     -webkit-transition: color 0.3s, background-color 0.5s, padding 0.9s, opacity: 5s;
     transition: color 0.3s, background-color 0.3s, padding 0.9s ;
@@ -193,9 +218,11 @@
     .header-hcs-2{
         font-size : 25px;
         padding-top : 10px;
+        margin:0px
     }
     .caption-hcs-2{
         font-size: 18px;
+        margin:0px
 
     }
 }
@@ -203,10 +230,12 @@
     .header-hcs-2{
         font-size : 17px;
         padding-top : 10px;
+        margin:0px
     }
     .caption-hcs-2{
         font-size: 15.5px;
         padding-top : 32px;
+        margin:0px
 
     }
 }
@@ -215,27 +244,31 @@
         font-size : 25px;
         padding : 20px;
         padding-top : 30px;
+        margin:0px
 
     }
     .caption-hcs-2{
         font-size: 20.5px;
         padding : 20px;
         padding-top : 32px;
+        margin:0px
 
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .header-hcs-2{
-        font-size : 15px;
+        font-size : 16px;
         padding : 10px;
         padding-top : 22px;
+        margin:0px
 
     }
     .caption-hcs-2{
-        font-size: 13.55px;
+        font-size: 14.55px;
         padding : 10px;
         padding-top : 15px;
         padding-bottom: 0px;
+        margin:0px
 
     }
 } 
@@ -245,21 +278,29 @@
 /* Barisan ke 3 */
 .hcs-3{
     background: url('../../images/hcs/background-hereditary-cancer-screening.png');
-    margin-top: -112px;
-   
+    margin-top: -132px;
+    background-size: cover;
+     height: 510px;
     background-repeat: no-repeat;
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
     .hcs-3{
         background: url('../../images/hcs/image-background-ijo-1025.png');   
         background-repeat: no-repeat;
+        background-size:cover;
+        height: 400px;
+        margin-top:-90px;
       }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .hcs-3{
         background: url('../../images/hcs/image-background-ijo-768.png');
         background-repeat: no-repeat;
-        margin-top: -93px;
+        background-size: cover;
+        background-position: center;
+
+        height: 400px;
+        margin-top: -100px;
       }
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -267,13 +308,20 @@
         background: url('../../images/hcs/image-background-ijo-481.jpg');
         background-repeat: no-repeat;
         margin-top: 0px;
+        background-size:cover;
+
+        height: 400px;
+        
       }
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .hcs-3{
         background: url('../../images/hcs/image-background-ijo-320.jpg');
         background-repeat: no-repeat;
-        margin-top: -24.5px;
+        margin-top: 0px;
+        background-size: cover;
+
+        height: 350px;
       }
 } 
 
@@ -283,8 +331,9 @@
     color:white;
     font-family: "GothamRounded-Medium";
     margin: 0px;
+    margin-left: -40px;
     padding-top: 140px;
-    font-size: 30px;
+    font-size: 32px;
     -webkit-transition: color 0.3s, background-color 0.5s, padding 0.9s, opacity: 5s;
     transition: color 0.3s, background-color 0.3s, padding 0.9s ;
 }
@@ -295,7 +344,8 @@
     margin: auto;
     padding: auto;
     padding-top:20px;
-    font-size: 20px;
+    margin-left: -40px;
+    font-size: 22px;
     font-weight: 10;
     text-align: justify;
     -webkit-transition : color 0.5s, background-color 0.5s, padding 0.9s, opacity 5s;
@@ -306,16 +356,19 @@
     .header-hcs-3{
         font-size: 25px;
         padding-top: 110px;
+        margin:0px;
     }
     .caption-hcs-3{
         font-size: 16px;
         width: 129%;
+        margin:0px;
     }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .header-hcs-3{
         font-size: 21px;
         padding-top: 110px;
+        margin:0px;
     }
     .caption-hcs-3{
         font-size: 15px;
@@ -323,13 +376,16 @@
         padding-bottom: -5px;
         width: 60%;
         margin-left: 0px;
+        margin:0px;
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
     .header-hcs-3{
         font-size: 24px;
         padding : 10px;
+        margin:0px;
         padding-top: 40px;
+        margin:0px;
     }
     .caption-hcs-3{
         font-size: 17.5px;
@@ -338,24 +394,28 @@
         padding-bottom: -5px;
         width: 100%;
         margin-left: 0px;
+        margin:0px;
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .header-hcs-3{
-        font-size: 14px;
+        font-size: 15px;
         padding : 10px;
         padding-top: 15px;
         margin-bottom: -15px;
+        margin:0px;
     }
     .caption-hcs-3{
-        font-size: 12.5px;
+        font-size: 13.5px;
         padding: 10px;
         padding-top:15px;
         margin-bottom: -17px;  
         
         width: 100%;
         margin-left: 0px;
+        margin:0px;
     }
+   
     
 } 
 
@@ -364,7 +424,34 @@
     padding-top: 20px;
     margin: auto;
     padding-left: auto;
+    margin-left: -40px;
     
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .bungkus-pelajari{
+        margin-left: 0px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .bungkus-pelajari{
+        margin-left: 0px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bungkus-pelajari{
+        margin-left: 0px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .bungkus-pelajari{
+        margin-left: 0px;
+    }
 }
 
 
@@ -393,7 +480,7 @@ a.hcs-pelajari:hover .image-pelajari-2 {display:inline}
 
 .hcs-4{
     background: url('../../images/hcs/background-siapa-yang-membutuhkan.jpg');
-    margin-top: -183px;
+    margin-top: 0px;
    
     background-repeat: no-repeat;
 }
@@ -401,24 +488,32 @@ a.hcs-pelajari:hover .image-pelajari-2 {display:inline}
 @media (min-width: 1025px) and (max-width: 1280px) {
     .hcs-4{
         background: url('../../images/hcs/image-background-bawah1025x1280.jpg');
-        margin-top: -900px;
+        margin-top: 0px;
        
         background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 1200px;
     }
     
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .hcs-4{
         background: url('../../images/hcs/image-background-bawah768x1024.jpg');
-        margin-top: -648px;
+        margin-top: 0px;
        
         background-repeat: no-repeat;
+        background-size: cover;
+        background-position : center;
+        height: 1100px;
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
     .hcs-4{
         background: url('../../images/hcs/image-background-bawah481x767.jpg');
-        margin-top: -294px;
+        margin-top: 0px;
+
+        background-size:cover;
        
         background-repeat: no-repeat;
     }
@@ -426,7 +521,8 @@ a.hcs-pelajari:hover .image-pelajari-2 {display:inline}
 @media (min-width: 320px) and (max-width: 480px) {
     .hcs-4{
         background: url('../../images/hcs/image-background-bawah320x480.jpg');
-        margin-top: -218px;
+        margin-top: 0px;
+        background-size: cover;
        
         background-repeat: no-repeat;
     }
@@ -443,7 +539,7 @@ a.hcs-pelajari:hover .image-pelajari-2 {display:inline}
 
 .header-hcs-4{
     font-family: "GothamRounded-Medium";
-    font-size: 24px;
+    font-size: 25px;
     
 }
 
@@ -453,13 +549,13 @@ a.hcs-pelajari:hover .image-pelajari-2 {display:inline}
     }
 .caption-hcs-4{
     font-family : "GothamRounded-Book";
-    font-size: 21px;
+    font-size: 22px;
     text-align: justify;
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
     .posisi-hcs-4{
-        padding-top: 900px;
+        padding-top: 850px;
         width: 150%;
         text-align: center;
         margin-left: -635px;
@@ -472,7 +568,7 @@ a.hcs-pelajari:hover .image-pelajari-2 {display:inline}
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .posisi-hcs-4{
-        padding-top: 650px;
+        padding-top: 700px;
         text-align: center;
         
     }
@@ -483,7 +579,7 @@ a.hcs-pelajari:hover .image-pelajari-2 {display:inline}
 }
 @media (min-width: 481px) and (max-width: 767px) {
     .posisi-hcs-4{
-        padding-top: 430px;
+        padding-top: 530px;
         text-align: center;
         
     }
@@ -498,7 +594,7 @@ a.hcs-pelajari:hover .image-pelajari-2 {display:inline}
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .posisi-hcs-4{
-        padding-top: 330px;
+        padding-top: 400px;
         text-align: center;
         
     }
@@ -551,7 +647,8 @@ hr.onepixcel-hcs {
   }
 
   .posisi-hcs-5{
-      margin-top: -100px;
+      margin-top: -20px;
+      
   }
 
   @font-face {
@@ -563,6 +660,7 @@ hr.onepixcel-hcs {
     color : #4b8c21;
     text-align: center;
     font-size : 49px;
+    
 
 }
 
@@ -610,6 +708,7 @@ hr.onepixcel-hcs {
 @media (min-width: 320px) and (max-width: 480px) {
     .header-hcs-5{
         font-size: 20px;
+        
     }
     .caption-hcs-5{
         font-size: 17px;
@@ -632,7 +731,9 @@ hr.onepixcel-hcs {
 }
 @media (min-width: 481px) and (max-width: 767px) {
     #posisi-gambar-hcs-5{
-        margin-left: 143px;
+        padding: auto;
+        padding: 0px 200px;
+        position: relative;
         
     }
 
@@ -640,7 +741,7 @@ hr.onepixcel-hcs {
 
 @media (min-width: 320px) and (max-width: 480px) {
     #posisi-gambar-hcs-5{
-        margin-left: 88px;
+        margin-left: 99px;
         margin-bottom: -40px;
     }
 }
