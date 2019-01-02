@@ -1,137 +1,54 @@
 .menu {
-    position: fixed;
-    bottom: 25px;
-    width: 9.2%;
-    right: -32px;
-    z-index: 99;
+  
+
+  position: fixed;
+  bottom: 25px;
+  width: 7.2%;
+  right: 2px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  /* background-color: #b3b3b3; */
+  border-radius: 100%;
+  color: white;
+  cursor: pointer;
+  padding:;
+
+
 }
 
 .wa{
-  width: 60%;
+  width: 80%;
+ 
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   .menu {
-    position: fixed;
-    bottom: 25px;
-    width: 9.2%;
-    right: -32px;
-    z-index: 99;
+    width: 8.2%;
+  }
 }
 
-.wa{
-  width: 60%;
-}
-}
 @media (min-width: 768px) and (max-width: 1024px) {
   .menu {
-    position: fixed;
-    bottom: 25px;
-    width: 9.2%;
-    right: -32px;
-    z-index: 99;
+    width: 12.2%;
+  }
 }
 
-.wa{
-  width: 60%;
-}
-}
 @media (min-width: 481px) and (max-width: 767px) {
   .menu {
-    position: fixed;
-    bottom: 25px;
+    width: 19.2%;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .menu {
     width: 20.2%;
-    right: -47px;
-    z-index: 99;
-}
-
-.wa{
-  width: 60%;
-}
-}
-@media (min-width: 320px) and (max-width: 480px) {
-  .menu {
-    position: fixed;
-    bottom: 25px;
-    width: 30.2%;
-    right: -35px;
-    z-index: 99;
-}
-  .wa{
-    width: 60%;
   }
-}
+} 
 
-/* @media (max-width: @screen-xs-max) { 
-  .menu {
-  position: fixed;
-  right: -20px;
-  top: 92%;
-  width: 8em;
-  margin-top: -2.5em;
-}
-
-.wa{
-width: 15%;
-}
-} */
-
-/* @media (min-width: 1025px) and (max-width: 1280px) {
-  .menu {
-    position: fixed;
-    right: -20px;
-    top: 91%;
-    width: 8em;
-    margin-top: 2.5em;
-  }
-
-.wa{
-  width: 60%;
-}
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .menu {
-    position: fixed;
-    right: -47px;
-    top: 91%;
-    width: 8em;
-    margin-top: 1.5em;
-  }
-
-.wa{
-  width: 50%;
-}
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .menu {
-    position: fixed;
-    right: -47px;
-    top: 91%;
-    width: 8em;
-    margin-top: -0.5em;
-  }
-
-.wa{
-  width: 50%;
-}
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .menu {
-    position: fixed;
-    right: -45px;
-    top: 91%;
-    width: 8em;
-    margin-top: -2em;
-  }
-
-.wa{
-  width: 55%;
-}
-} */
-
+  
 
 
   a.menu .image-wa-2{display:none}
@@ -139,12 +56,12 @@ width: 15%;
   a.menu:hover .image-wa-2 {display:inline}
 
 
-  #myBtn {
+  .scroll_To_Top {
     display: none;
     position: fixed;
     bottom: 115px;
     width: 3.2%;
-    right: 33px;
+    right: 40px;
     z-index: 99;
     font-size: 18px;
     border: none;
@@ -158,7 +75,7 @@ width: 15%;
     
   }
   
-  #myBtn:hover {
+  .scroll_To_Top:hover {
     background-color: #ffd14e;
     border: 2px solid #fdc52b;
     border-radius: 100%;
@@ -167,11 +84,12 @@ width: 15%;
   .up{
     width: 80%;
     padding: 10px 0px;
+    padding-left: 7px;
 
     
   }
   @media (min-width: 1025px) and (max-width: 1280px) {
-    #myBtn {
+    .scroll_To_Top {
       width: 3.3%;
       right: 28px;
       bottom: 106px;
@@ -179,7 +97,7 @@ width: 15%;
   }
 
   @media (min-width: 768px) and (max-width: 1024px) {
-    #myBtn {
+    .scroll_To_Top {
       width: 4.3%;
       right: 28px;
       bottom: 106px;
@@ -187,8 +105,8 @@ width: 15%;
   }
 
   @media (min-width: 481px) and (max-width: 767px) {
-    #myBtn {
-      width: 7.3%;
+    .scroll_To_Top {
+      width: 4.3%;
       right: 30px;
       bottom: 126px;
     }
@@ -196,13 +114,17 @@ width: 15%;
   
 
   @media (min-width: 320px) and (max-width: 480px) {
-    #myBtn {
+    .scroll_To_Top {
       width: 11.3%;
       right: auto;
       right: 20px;
       
       bottom: 116px;
     }
+    .up{
+      width: 10%;
+      padding: 10px 0px;
+      padding-left: 7px;
   } 
 
 

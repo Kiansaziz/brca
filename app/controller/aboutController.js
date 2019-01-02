@@ -6,4 +6,6 @@
       $scope.pageClass = 'page-about';
   });
 
+  
+
   }());

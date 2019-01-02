@@ -137,11 +137,12 @@
     background: url('../../images/hcs/background-dan-tabel-apa-itu-cancer-bawaan.png');
     margin-top: -59px;
     background-size:cover;
+      background
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
     .hcs-2{
       background: url('../../images/hcs/background-dan-tabel-apa-itu-cancer-bawaan.png');
-
+      
       margin-top: -50px;
       height: 584px;
       background-position: center;
@@ -175,6 +176,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
     .hcs-2{
         background: url('../../images/hcs/image-background-320x480.png');
+        height: 420px;
         margin-top: -130px;
         background-repeat: no-repeat;
         background-size:cover;
@@ -259,7 +261,7 @@
     .header-hcs-2{
         font-size : 16px;
         padding : 10px;
-        padding-top : 22px;
+        padding-top : 26px;
         margin:0px
 
     }

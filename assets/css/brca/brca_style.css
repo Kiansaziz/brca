@@ -1,0 +1,206 @@
+/* font */
+@font-face {
+    font-family: "GothamRounded-Medium";
+    src: url('../../bootstrap/fonts/GothamRounded-Medium.otf');
+    }
+@font-face {
+    font-family: "GothamRounded-Book";
+    src: url('../../bootstrap/fonts/GothamRounded-Book.otf');
+    }
+
+
+
+/* Barisan 1 */
+.brca-1{
+    background-image: url('../../images/brca/Header-Image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+    padding: 210px 50px 230px 10px;
+    /* padding : atas kanan bawah kiri   */
+}
+
+.brca-logo-1{
+    display: block;
+    margin-left:auto;
+    margin-bottom : 10px;
+}
+
+.brca-1-caption{
+    font-family: "GothamRounded-Medium";
+    text-align: right;
+    font-size : 27px;
+    color: #ef6291;
+}
+.onepixcel-brca{
+    border-top: 2px solid #ef6291;
+    border-bottom: 2px solid #ef6291;
+    height: 0px;
+    margin-bottom: 0px;
+    margin-top : 90px;
+    z-index: -1;
+}
+
+
+/* barisan 2 */
+
+.brca-2{
+    text-align: center;
+    margin-top: -25px;
+}
+.brca-2-button-left{
+    background-color: #dcdcdc;
+    font-family : "GothamRounded-Medium";
+    color: white;
+    border : 0px;
+    border-radius: 100px; 
+    padding : 10px 55px;
+
+    font-size : 25px;
+}
+
+.brca-2-left{
+    margin-top: -35px;
+}
+
+.brca-2-left-bg{
+    background-image: url("../../images/brca/Background-image-atas.png");
+    background-repeat : no-repeat;
+    background-position : center;
+    background-size : cover;
+
+    width: 100%;
+    height: auto;
+    
+
+
+    margin-top: -30px;
+    padding : 180px 25px 400px 15px;
+    /* padding : atas kanan bawah kiri */
+}
+
+.brca-2-tabel{
+   margin-top: -430px;
+   padding-left: 65px;
+}
+
+.brca-2-left-header{
+    font-family: "GothamRounded-Medium";
+    font-size : 30px;
+    
+}
+
+.brca-2-left-caption{
+    font-family: "GothamRounded-Book";
+    font-size : 22px;
+    text-align: justify;
+}
+
+
+/* barisan 3 */
+
+.brca-3-left-bg{
+    background-image : url("../../images/brca/image-mutasi.png");
+    background-repeat: no-repeat;
+    background-size : cover;
+    background-position : center;
+
+    width: 100%;
+    height: auto;
+
+    margin-top: 80px;
+    padding : 200px 15px 200px 15px ;
+      /* padding : atas kanan bawah kiri */
+}
+
+.brca-3-caption-left{
+    font-family: "GothamRounded-Book";
+    font-size : 22px;
+    text-align: center;
+    color: white;
+}
+
+.brca-b{
+    font-size:25px;
+    font-weight: 1900;
+}
+.brca-b-gede{
+    font-size: 26px;
+    font-weight: 900;
+}
+
+
+/* Barisan 4 */
+
+.brca-4-left-bg{
+    background-image: url("../../images/brca/image-background-siapa-saja-yang-membutuhkan-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+
+    margin-top : 80px;
+    padding : 15px 15px 25px 0px;
+}
+
+.brca-4-left-position-text{
+    padding-left : 80px;
+}
+
+.brca-4-left-header{
+    font-family: "GothamRounded-Medium";
+    font-size : 22px;
+    color: white;
+
+    background-color : #ef6291;
+    border-radius : 30px;
+    
+    margin-top: 40px;
+    margin-bottom: 25px;
+    padding : 10px 25px;
+
+}
+
+.brca-4-left-caption{
+    font-family: "GothamRounded-Book";
+    font-size : 21px;
+    padding-left : 25px;
+    padding-right : 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 

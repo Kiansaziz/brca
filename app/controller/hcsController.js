@@ -1,7 +1,7 @@
 (function(){
 // home page controller
 
-animateApp.controller('hcsController', function($scope) {
+animateApp.controller('hcsController', function($scope, $http) {
     $scope.pageClass = 'page-hcs.html';
     $scope.logoHcs = "HCS-logo.png";
     $scope.pelajariOff = "pelajari-lebih-lanjut-button-off.png";
@@ -14,8 +14,13 @@ animateApp.controller('hcsController', function($scope) {
 
     $scope.igWhite ="instagram-white.png";
     $scope.igColor = "instagram-colored.png";
+    $scope.cancervueBottom = "cancervue-white-bottom.png";
+
 
     $scope.tabelKanker = "Tabel.jpg";
+    $scope.tabelKankerDetail = "tabel-kanker-zoom-icon.png";
+
+    lightGallery(document.getElementById('lightgallery'));
 });
 
 

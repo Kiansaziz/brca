@@ -1,12 +1,12 @@
 // app.js
 
 // define our application and pull in ngRoute and ngAnimate
-var animateApp = angular.module('animateApp', ['ngRoute', 'ngAnimate']);
+var animateApp = angular.module('animateApp', ['ngRoute']);
 
 // ROUTING ===============================================
 // set our routing for this application
 // each route will pull in a different controller
-animateApp.config(function($routeProvider) {
+animateApp.config(["$routeProvider",function($routeProvider) {
 
     $routeProvider
 
@@ -14,12 +14,14 @@ animateApp.config(function($routeProvider) {
         .when('/', {
             templateUrl: 'views/page-home.html',
             controller:'homeController'
+         
         })
 
         // Blog page
         .when('/blog', {
             templateUrl: 'views/page-about.html',
             controller: 'aboutController'
+           
         })
 
         // HCS page
@@ -27,11 +29,21 @@ animateApp.config(function($routeProvider) {
             templateUrl: 'views/page-hcs.html',
             controller: 'hcsController'
         })
-
+        //HCS detail
         .when('/layanan-detail-hcs',{
             templateUrl: 'views/page-detail-hcs.html',
-            controller  : 'hcsController',
-            css: 'app/detail.css'
+            controller  : 'hcsController'
+        })
+        //HCS hasil
+        .when('/layanan-detail-hasil-hcs', {
+            templateUrl: 'views/page-tentang-hasil.html',
+            controller : 'hcsController'
+        })
+        .when('/layanan-brca',{
+            templateUrl : 'views/page-brca.html'
+        })
+        .otherwise({
+            redirectTo : "/"
         });
 
-});
+}]);

@@ -1,174 +1,104 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html class="no-js"> <!--<![endif]-->
 <head>
 
-    <!-- CSS -->
-    <!-- load bootstrap (bootswatch version) -->
+    <!-- Meta-Information -->
+    <title>BRCA</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/new_custom.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/float.css">
+    <link rel="stylesheet" href="assets/css/hcs/header.css">
+    <link rel="stylesheet" href="assets/css/alamat_custom.css">
+    <link rel="stylesheet" href="assets/css/ganti-gambar.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="assets/css/tentang.css">
+    <link rel="stylesheet" href="assets/css/alamat_custom.css">
     <link rel="stylesheet" href="assets/css/scroll.css">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/alamat_custom.css">
 
-    <!-- JS -->
-    <!-- load angular, ngRoute, ngAnimate -->
+    <!-- HCS -->
+    <link rel="stylesheet" href="assets/css/hcs/header.css">
+    <link rel="stylesheet" href="assets/css/hcs/detail.css">
 
+    <!-- BRCA -->
+    <link rel="stylesheet" href="assets/css/brca/brca_style.css">
+
+    <!-- Percobaan -->
+    <link href="coba/dist/css/lightgallery.css" rel="stylesheet">
+
+    
 
 </head>
-
-
 <body ng-app="animateApp">
 
 
-<!-- <div class="bg-img">
-  <div class="container ">
+<!-- Our Website Content Goes Here -->
+<div ng-include='"views/partials/header.html"'></div>
 
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            	<a class="navbar-brand" href="#/!"><img src="assets/images/cancervue_logo_home.png" alt="" class="img-responsive"></a>
-          </div>
-
-
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right navbar-gue ">
-              <li ><a href="#/!">HOME <span class="sr-only">(current)</span></a></li>
-              <li class="dropdown color">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LAYANAN <span class="caret"></span></a>
-                <ul class="dropdown-menu" >
-                  <li><a href="#">HCS</a></li>
-                  <li><a href="#">BRCA</a></li>
-                  <li><a href="#">SMA</a></li>
-                </ul>
-              </li>
-              <li><a href="#!blog">BLOG</a></li>
-              <li><a href="#!tentang-kami">TENTANG KAMI</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <p class="col-md-6">Memahami cara kerja genetik, untuk mendeteksi dini dan menentukan pengobatan yang tepat</p>
-    </div>
-</div> -->
+<div ng-view ng-init="init()"></div>
 
 
 
-<!-- Home Image -->
-
-
-
-
-<!-- Home Image -->
-
-
-        <nav class="navbar navbar-default navbar-fixed-top background-navbar">
-          <div class="container">
-          <div class="container-fluid">
-
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                </button >
-                   <a class="navbar-brand header_image" href="#" ng-init="myLogo = 'assets/images/cancervue_logo_home.png'"><img ng-src="{{myLogo}}" alt="" class="img-responsive"></a>
-                </div>
-
-
-            <div class="collapse navbar-collapse toggle-header" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right" >
-                <li><a href="#">HOME</a></li>
-                <li class="dropdown multi-level ">
-                  <a  class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LAYANAN <span class="caret"></span></a>
-                  <ul class="dropdown-menu menu-toggle">
-                    <li class="dropdown-submenu multi-level">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">HCS</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#!layanan-hcs" onclick="topFunction()">Tentang HCS</a></li>
-                            <li><a href="#!layanan-detail-hcs" onclick="topFunction()">Detail HCS</a></li>
-                            <li class="divider"></li>
-                        </ul>
-                    </li>
-                    <li class="divider"></li>
-                    <li><a href="#">BRCA</a></li>
-                    <li><a href="#">SMA</a></li>
-                    
-                  </ul>
-                </li>
-                <li><a href="#!blog">BLOG</a></li>
-                <li><a href="#tentang-kami">TENTANG KAMI</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-
-
-  <div class="page {{ pageClass }}" ng-view  ng-init="init()"></div>
-<!-- 
-<div id="menu">
-    <a href="#"><img src="assets/images/wa-colored.png"></a>
-</div> -->
-<a class="menu" ng-init="waOne='assets/images/wa-colored-new-1.png'; waTwo='assets/images/wa-colored-new-2.png'" href="LINK TUJUAN JIKA GAMBAR DIKLIK">
-    <img class="image-wa-1 wa" ng-src="{{waOne}}"/>
-    <img class="image-wa-2 wa" ng-src="{{waTwo}}"  />
-</a>
-
-
-
-
-<button onclick="topFunction()" id="myBtn" title="Go to top" ng-init="myUp='assets/images/segitiga.png'">
-    <img class="up" ng-src="{{myUp}}"/>
-</button>
-
-
-<script>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("myBtn").style.display = "block";
-  } else {
-    document.getElementById("myBtn").style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
+<div ng-include='"views/partials/footer.html"'></div>
 
 
 
 
 
 
-
-    <script src="assets/angular/angular.js"></script>
-    <script src="assets/angular/angular-route.js"></script>
-    <script src="assets/angular/angular-animate.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
+    <!-- Vendor: Javascripts -->
+    <script src="assets/js/jquery.js"></script>
     <script src="assets/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Vendor: Angular, followed by our custom Javascripts -->
+    <script src="assets/angular/angular.min.js"></script>
+    <script src="assets/angular/angular-route.min.js"></script>
+    <script src="assets/angular/angular-animate.js"></script>
+
+    <!-- Our Website Javascripts -->
     <script src="app/app.js"></script>
+
+
+    <!-- Controller -->
+
+    <script src="app/controller/homeController.js"></script>
+    <script src="app/controller/hcsController.js"></script>
+
+
+
+    <!-- Animation -->
     <script src="app/jscustom/scrol.js"></script>
 
-    <script src="app/controller/hcsController.js"></script>
-    <script src="app/controller/homeController.js"></script>
+    
+    <!-- Zoom Image -->
+    <script src="assets/js/lightgallery.min.js"></script>
+    <script src="assets/js/lg-thumbnail.min.js"></script> 
+    <script src="assets/js/lg-fullscreen.min.js"></script> 
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#lightgallery').lightGallery();
+        });
+        </script>
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="coba/dist/js/lightgallery-all.js"></script>
+    <script src="coba/lib/jquery.mousewheel.min.js"></script>
+
+<script>
+$(document).ready(function(){
+        $( "a.scrollLink" ).click(function( event ) {
+            event.preventDefault();
+            $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+        });
+    });
+
+</script>
+    
+
     
 
 </body>
