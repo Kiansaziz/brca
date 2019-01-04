@@ -19,9 +19,55 @@
     width: 100%;
     height: auto;
 
-    padding: 210px 50px 230px 10px;
+    padding: 210px 15px 230px 15px;
     /* padding : atas kanan bawah kiri   */
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .brca-1{
+        background-image : url("../../images/brca/Header-1025px-\(tab\).png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        width: 100%;
+        height: auto;
+
+        margin-top: -155px;
+        padding : 310px 15px 500px 15px;
+        /* padding atas kanan bawah kiri */
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-1{
+        background-image: url("../../images/brca/mobile/Header-BRCA-1.jpg");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        
+        width: 100%;
+        height: auto;
+
+        margin : 0px;
+        padding : 180px 15px 180px 15px;
+        /* padding atas kanan bawah kiri; */
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-1{
+        background-image:url("../../images/brca/mobile/Header-BRCA-1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        width: 100%;
+        height: auto;
+
+        margin : 0px;
+        padding : 95px 15px 95px 15px;
+    }
+} 
 
 .brca-logo-1{
     display: block;
@@ -29,10 +75,14 @@
     margin-bottom : 10px;
 }
 
+
+
 .brca-1-caption{
     font-family: "GothamRounded-Medium";
     text-align: right;
     font-size : 27px;
+    font-weight: 599;
+    letter-spacing: 1px;
     color: #ef6291;
 }
 .onepixcel-brca{
@@ -44,6 +94,40 @@
     z-index: -1;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .brca-logo-1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 25%;
+
+        margin-bottom: 10px;
+    }
+
+    .brca-1-caption{
+        text-align: center;
+        font-size: 24px;
+
+        padding : 10px 150px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-logo-1{
+        width: 60%;
+    }
+    .brca-1-caption{
+        font-size : 23px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-logo-1{
+        width: 60%;
+    }
+    .brca-1-caption{
+        font-size: 22px;
+    }
+} 
 
 /* barisan 2 */
 
@@ -62,6 +146,41 @@
     font-size : 25px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .brca-2-button-left{
+        font-size : 22px;   
+        padding : 10px 25px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-2-button-left{
+        font-size : 16px;
+        padding : 10px 25px;
+    }
+}
+@media (min-width: 410px) and (max-width: 480px) {
+    .brca-2-button-left{
+        font-size : 15px;
+        padding: 10px 10px;
+        margin-top : -10px;
+    }
+    .left-brca-button{
+        padding : 25px 25px;
+        margin-top : -15px;
+    }
+} 
+@media (min-width :320px) and (max-width: 409px){
+    .brca-2-button-left{
+        font-size : 15px;
+        padding: 10px 10px;
+        margin-top : -10px;
+    }
+    .left-brca-button{
+        padding : 10px 25px ;
+    }
+
+}
+
 .brca-2-left{
     margin-top: -35px;
 }
@@ -78,9 +197,31 @@
 
 
     margin-top: -30px;
-    padding : 180px 25px 400px 15px;
+    padding : 180px 15px 400px 15px;
     /* padding : atas kanan bawah kiri */
 }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .brca-2-left-bg{
+        padding: 240px 15px 240px 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .brca-2-left-bg{
+        display: none;
+    }
+
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-2-left-bg{
+        display: none;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-2-left-bg{
+        display: none;
+    }
+} 
 
 .brca-2-tabel{
    margin-top: -430px;
@@ -99,6 +240,134 @@
     text-align: justify;
 }
 
+@media (min-width: 992px) and (max-width: 1280px) {
+    .brca-2-tabel{
+        margin-top: -280px;
+    }
+    .brca-2-left-header{
+        font-size : 28px;
+    }
+    .brca-2-left-caption{
+        font-size : 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .brca-2-lef-bg-mobile{
+        background-image: url("../../images/brca/mobile/Background-tabel.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        margin-top : -25px;
+        padding : 40px 15px 15px 40px;
+
+    }
+    .brca-2-tabel{
+        margin-top: 45px;
+        padding-right: 0px;
+
+        width: 359px;
+
+        position: relative;
+    }
+    .brca-2-left-header{
+        margin-top: 50px;
+        font-size : 26px;
+    }
+    .brca-2-left-caption{
+        font-size : 18.2px;
+    }
+    
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-2-lef-bg-mobile{
+        background-image: url("../../images/brca/mobile/Background-bawah.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+        width: 100%;
+        height: auto;
+
+        margin-top: -20px;
+        padding : 30px 10px;
+    }
+    .brca-2-tabel{
+        margin:0px;
+        margin-top : 30px;
+        padding: 0px;
+     
+
+    }
+
+    .brca-2-tabel img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding: 0px;
+        
+    }
+
+    .brca-2-left-header{
+        font-size :18px;
+        margin-top: 20px;
+        padding : 0px 30px;
+    }
+    .brca-2-left-caption{
+        font-size : 18px;
+        padding : 10px 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-2-lef-bg-mobile{
+        background-image: url("../../images/brca/mobile/Background-bawah.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+        width: 100%;
+        height: auto;
+
+        margin-top: -30px;
+        padding : 30px 10px;
+    }
+    .brca-2-tabel{
+        margin:0px;
+        margin-top : 30px;
+        padding: 0px;
+        width: 10%:
+
+    }
+
+    .brca-2-tabel img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 100%;
+        padding : 0px 30px;
+        
+    }
+
+    .brca-2-left-header{
+        margin-top: 20px;
+        padding : 0px 30px;
+
+        font-size : 15px;
+    }
+    .brca-2-left-caption{
+        font-size : 13.5px;
+
+        padding : 10px 20px;
+    }
+    
+} 
 
 /* barisan 3 */
 
@@ -116,6 +385,38 @@
       /* padding : atas kanan bawah kiri */
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .brca-3-left-bg{
+        padding : 150px 15px 150px 15px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-3-left-bg{
+        background-image: url("../../images/brca/mobile/BRCA-cancer-illustration-2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+        
+        padding : 50px 15px 470px 15px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-3-left-bg{
+        background-image: url("../../images/brca/mobile/BRCA-cancer-illustration-2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        padding: 35px 15px 350px 15px;
+    }
+} 
+
 .brca-3-caption-left{
     font-family: "GothamRounded-Book";
     font-size : 22px;
@@ -131,6 +432,41 @@
     font-size: 26px;
     font-weight: 900;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+        .brca-3-caption-left{
+            font-size : 18px;
+        }
+        .brca-b{
+            font-size : 22px;
+        }
+        .brca-b-gede{
+            font-size : 22px;
+        }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-3-caption-left{
+        font-size : 18px;
+    }
+    .brca-b{
+        font-size : 22px;
+    }
+    .brca-b-gede{
+        font-size : 22px;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-3-caption-left{
+        font-size: 13.8px;
+    }
+    .brca-b{
+        font-size : 17px;
+    }
+    .brca-b-gede{
+        font-size : 17px;
+    }
+
+} 
 
 
 /* Barisan 4 */
@@ -147,6 +483,49 @@
     margin-top : 80px;
     padding : 15px 15px 25px 0px;
 }
+
+@media (min-width: 1025px) and (max-width: 1186px) {
+    .brca-4-left-bg{
+        padding : 15px 15px 25px 0px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .brca-4-left-bg{
+        padding : 15px 5px 25px 0px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-4-left-bg{
+        background-image : url('../../images/brca/mobile/Background-bawah-new.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+
+        margin-top : -50px;
+        padding : 100px 25px 30px 25px ;
+
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-4-left-bg{
+        background-image : url('../../images/brca/mobile/Background-bawah-new.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+
+        margin-top : -50px;
+        padding : 100px 25px 30px 25px ;
+
+    }
+} 
 
 .brca-4-left-position-text{
     padding-left : 80px;
@@ -173,32 +552,526 @@
     padding-right : 0px;
 }
 
+@media (min-width: 991px) and (max-width: 1186px) {
+    .brca-4-left-position-text{
 
+    }
+    .brca-4-left-header{
+        font-size : 18px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 1025px) and (max-width: 1280px) {
+    }
+    .brca-4-left-caption{
+        font-size : 18px;
+    }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 990px) {
+    .brca-4-left-position-text{
+        padding-right : 0px;
+       
+    }
+    .brca-4-left-header{
+        font-size : 17px;
+        padding-right : 10px;
+       
+
+    }
+    .brca-4-left-caption{
+        font-size : 17px;
+       
+        
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-4-left-position-text{
+        padding : 0;
+
+    }
+    .brca-4-left-header{
+        font-size: 18px;
+
+    }
+    .brca-4-left-caption{
+        font-size : 18px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-4-left-position-text{
+        padding : 0;
+
+    }
+    .brca-4-left-header{
+        font-size : 14px;
+    }
+    .brca-4-left-caption{
+        font-size : 14px;
+    }
+} 
+
+
+/* Barisan 5 */
+.brca-5-header{
+    font-family: "GothamRounded-Medium";
+    font-size : 32px;
+    text-align: center;
+    color: #ef6291;
+
+    margin-top : 80px ;
+   
+    
+}
+
+.brca-5-left-bg{
+    background-image : url("../../images/brca/Image-bagaimana-cara.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 80px;
+    padding : 25px 15px 25px 15px;
+    /* padding : atas kanan bawah kiri */
+}
+
+@media (min-width: 991px) and (max-width: 1280px) {
+    .brca-5-header{
+
+    }
+    .brca-5-left-bg{
+
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .brca-5-header{
+        font-size : 26px;
+
+    }
+    .brca-5-left-bg{
+        padding : 25px 25px 25px 25px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-5-header{
+        font-size :26px;
+    }
+    .brca-5-left-bg{
+        background-image: url('../../images/brca/mobile/Bagaimana-Cara-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        padding : 25px 25px 25px 25px;
+        
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-5-header{
+        font-size: 18px;
+    }
+    .brca-5-left-bg{
+        background-image: url('../../images/brca/mobile/Bagaimana-Cara-mobile-kecil.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: auto;
+
+        padding : 0px 15px 0px 15px;
+    }
+} 
+
+.brca-5-caption-one{
+    font-family: "GothamRounded-Book";
+    font-size : 22px;
+    color : #ef6291;
+    text-align : right;
+    margin-bottom : 20px;
+}
+
+.brca-5-caption-two{
+    font-family:  "GothamRounded-Book";
+    font-size :22px;
+    color : white;
+    text-align : right;
+}
+@media (min-width: 991px) and (max-width: 1280px) {
+    .brca-5-caption-one{
+
+    }
+    .brca-5-caption-two{
+
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .brca-5-caption-one{
+        font-size : 18px;
+
+    }
+    .brca-5-caption-two{
+        font-size : 18px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-5-caption-one{
+        padding-bottom: 180px;
+        padding-top:10px;
+        font-size: 18px;
+        text-align: center;
+
+    }
+    .brca-5-caption-two{
+        padding-bottom :50px;
+        font-size : 18px;
+
+        text-align: center;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-5-caption-one{
+        padding : 15px 0px;
+        margin:0;
+        
+        font-size: 14px;
+
+        text-align: center;
+
+    }
+    .brca-5-caption-two{
+        padding : 0;
+        padding-top : 140px;
+        padding-bottom : 50px;
+        margin: 0;
+        font-size: 14px;
+
+        text-align: center;
+    }
+} 
+
+/* Barisan 6 */
+
+.brca-6-logo img{
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.brca-6-caption{
+    font-family: "GothamRounded-Book";
+    font-size : 22px;
+    text-align: center;
+
+    padding : 40px 100px;
+}
+
+.onepixcel-brca-6{
+    border-top : 2px solid #ef6291;
+    border-bottom : 2px solid #ef6291;
+    margin: 0px 450px;
+
+    position: relative;
+
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .brca-6-logo img{
+
+    }
+    .brca-6-caption{
+
+    }
+    .onepixcel-brca-6{
+
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .brca-6-logo img{
+        width: 30%;
+    }
+    .brca-6-caption{
+        font-size : 18px;
+        padding: 30px 60px;
+
+    }
+    .onepixcel-brca-6{
+        margin : 0px 250px;
+
+        position: relative;
+        
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-6-logo img{
+        width: 35%;
+    }
+    .brca-6-caption{
+        font-size : 16px;
+        padding : 20px 25px;
+
+    }
+    .onepixcel-brca-6{
+        margin : 0px 200px;
+        position: relative;
+        
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-6-logo img{
+        width: 35%;
+    }
+    .brca-6-caption{
+        font-size: 14px;
+        padding : 20px 25px;
+
+    }
+    .onepixcel-brca-6{
+        margin: 0px 100px;
+        position: relative;
+        
+    }
+} 
+
+
+/* BRCA right */
+
+/* Barisan 2 */
+.brca-2-position{
+    margin-bottom: 40px;
+}
+
+.brca-2-right-header{
+    font-family: "GothamRounded-Medium";
+    font-size : 30px;
+    color: #ef6291;
+    text-align: justify;
+    padding-right : 10px;
+   
+
+    margin-top: 100px;
+    
+}
+
+.brca-2-right-caption{
+    font-family: "GothamRounded-Book";
+    font-size : 22px;
+    text-align: justify;
+    padding-right : 10px;
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .brca-2-right-header{
+        font-size : 28px;
+        margin-top: 60px;
+    }
+    .brca-2-right-caption{
+        font-size :21px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .brca-2-right-header{
+        font-size : 24px;
+        margin-top : 50px;
+    }
+    .brca-2-right-caption{
+        font-size : 18px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-2-right-header{
+        font-size : 22px;
+        margin: 0;
+        margin-top: 40px;
+        padding : 10px 25px;
+    }
+    .brca-2-right-caption{
+        font-size : 18px;
+        padding : 10px 25px;
+    }
+    .
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-2-right-header{
+        font-size :16px ;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .brca-2-right-caption{
+        font-size : 14px;
+        padding : 10px 0px;
+        margin-bottom: -20px;
+    }
+} 
+
+
+
+/* Barisan 3 */
+.brca-3-right-header{
+    background-color : #ef6291;
+    font-family: "GothamRounded-Medium";
+    color: white;
+    font-size: 22px;
+
+    border: 0 ;
+    border-radius : 100px;
+
+    margin-right: 0px;
+    padding : 6px 25px;
+
+    display: inline-block;
+
+    
+}
+
+.brca-3-right-caption{
+    font-family: "GothamRounded-Book";
+    font-size : 22px;
+    text-align: justify;
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .brca-3-right-header{
+        font-size: 21px;
+    }
+    .brca-3-right-caption{
+        font-size:21px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .brca-3-right-header{
+        font-size: 18px;
+    }
+    .brca-3-right-caption{
+        font-size: 18px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-3-right-header{
+        font-size:18px;
+    }
+    .brca-3-right-caption{
+        font-size : 18px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-3-right-header{
+        font-size : 14px;
+        
+    }
+    .brca-3-right-caption{
+        font-size : 14px;
+       
+    }
+} 
+
+
+
+
+
+.brca-3-right-icon img{
+    
+    margin : 80px 0px;
+
+    position: relative;
+
+}
+
+.brca-3-right-icon-2 img{
+    margin : 50px 0px;
+
+    position: relative;
+}
+
+.brca-3-right-icon-3 img{
+    margin : 50px 0px;
+
+    position: relative;
+}
+
+.icon-3{
+    margin-left: -18px;
+    margin-right: -16px;  
+
+    position: relative;
+}
+
+.brca-3-right-icon-4{
+    margin: 50px 0px;
+
+    position: relative;
+}
+
+.icon-4{
+    margin-left: -23px;
+    margin-right : -10px;
+    position: relative;
+}
+
+.icon-6{
+    margin-left : -25px;
+    margin-right : 0px;
+}
+
+.brca-9-right-bg{
+    background-image : url("../../images/brca/right/Image-background-bawah.png");
+    background-size : cover;
+    background-position : center;
+    background-repeat: no-repeat;
+
+    margin-bottom: -95px;
+    padding: 320px 15px 320px 15px;
+}
+
+@media (min-width: 991px) and (max-width: 1186px) {
+    .brca-9-right-bg{
+        padding : 300px 15px 300px 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .brca-9-right-bg{
+        padding : 230px 15px 230px 15px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .brca-9-right-bg{
+        padding : 180px 15px 180px 15px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .brca-9-right-bg{
+        padding: 140px 15px 140px 15px;
+    }
+} 
+
+.barisan-6{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 991px) and (max-width: 1186px) {
+}
+@media (min-width: 768px) and (max-width: 990px) {
 }
 @media (min-width: 481px) and (max-width: 767px) {
 }

@@ -20,19 +20,8 @@ a.pic:hover .image2 {display:inline}
 
 
 
-.gede {
-    width: 259px;
-    margin-top:10px;
-    margin-bottom:12px;
-}
 
-@media (min-width: 1025px) and (max-width: 1280px) {
-    .gede {
-        width: 199px;
-        margin-top:0px;
-        margin-bottom:10px;
-    }
-}
+
 @media (min-width: 768px) and (max-width: 1024px) {
     #gede{
         width: 219px;
@@ -91,7 +80,8 @@ a.pic:hover .image2 {display:inline}
 
 
 .brca {
-    width: 219px;
+    width: 259px;
+    margin-left: 100px;
     margin-top:15px;
     margin-bottom:21px;
 }
@@ -125,7 +115,7 @@ a.pic:hover .image2 {display:inline}
     width: 259px;
     margin-top:15px;
     margin-bottom:21px;
-    margin-left:49px;
+    margin-left:46px;
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
