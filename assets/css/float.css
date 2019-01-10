@@ -57,77 +57,56 @@
 
 
   .scroll_To_Top {
-    display: none;
     position: fixed;
-    bottom: 115px;
-    width: 3.2%;
-    right: 40px;
+    bottom: 105px;
+    width: 4.5%;
+    right: 25px;
     z-index: 99;
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #b3b3b3;
+    /* background-color: #b3b3b3; */
     border-radius: 100%;
     color: white;
     cursor: pointer;
     padding:;
-    border: 2px solid #919090;
-    
   }
   
-  .scroll_To_Top:hover {
-    background-color: #ffd14e;
-    border: 2px solid #fdc52b;
-    border-radius: 100%;
-  }
+  a.scroll_To_Top .image-panah-2{display:none}
+  a.scroll_To_Top:hover .image-panah-1 {display:none}
+  a.scroll_To_Top:hover .image-panah-2 {display:inline}
 
-  .up{
-    width: 80%;
-    padding: 10px 0px;
-    padding-left: 7px;
-
-    
-  }
   @media (min-width: 1025px) and (max-width: 1280px) {
-    .scroll_To_Top {
-      width: 3.3%;
-      right: 28px;
-      bottom: 106px;
-    }
+  .scroll_To_Top {
+    width: 5.2%;
   }
+}
 
-  @media (min-width: 768px) and (max-width: 1024px) {
-    .scroll_To_Top {
-      width: 4.3%;
-      right: 28px;
-      bottom: 106px;
-    }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .scroll_To_Top {
+    width: 7.2%;
+     right: 35px;
+     bottom: 115px;
   }
+}
 
-  @media (min-width: 481px) and (max-width: 767px) {
-    .scroll_To_Top {
-      width: 4.3%;
-      right: 30px;
-      bottom: 126px;
-    }
+@media (min-width: 481px) and (max-width: 767px) {
+  .scroll_To_Top {
+    width: 12.2%;
+    bottom: 120px;
+    right: 30px;
   }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .scroll_To_Top {
+    width: 12.2%;
+    bottom: 90px;
+    right: 20px;
+  }
+} 
   
-
-  @media (min-width: 320px) and (max-width: 480px) {
-    .scroll_To_Top {
-      width: 11.3%;
-      right: auto;
-      right: 20px;
-      
-      bottom: 116px;
-    }
-    .up{
-      width: 10%;
-      padding: 10px 0px;
-      padding-left: 7px;
-  } 
-
-
 
   /* 
 

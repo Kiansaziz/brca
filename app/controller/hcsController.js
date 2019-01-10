@@ -20,7 +20,9 @@ animateApp.controller('hcsController', function($scope, $http) {
     $scope.tabelKanker = "Tabel.jpg";
     $scope.tabelKankerDetail = "tabel-kanker-zoom-icon.png";
 
-    lightGallery(document.getElementById('lightgallery'));
+    $scope.fb="https://www.facebook.com/cancervue/";
+    $scope.ig= "https://www.instagram.com/cancervue/";
+
 });
 
 

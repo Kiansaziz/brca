@@ -6,7 +6,7 @@
     <title>BRCA</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="theme-color" content="#ffd14e">
+   
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -33,6 +33,10 @@
     <!-- Percobaan -->
     <link href="coba/dist/css/lightgallery.css" rel="stylesheet">
 
+    <!-- Contact -->
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" type="text/css" href="coba/slide-logo/slide.css">
+
     
 
 </head>
@@ -42,7 +46,8 @@
 <!-- Our Website Content Goes Here -->
 <div ng-include='"views/partials/header.html"'></div>
 
-<div ng-view ng-init="init()"></div>
+<div ng-view="page-class" ng-init="init()"></div>
+
 
 
 
@@ -70,6 +75,8 @@
 
     <script src="app/controller/homeController.js"></script>
     <script src="app/controller/hcsController.js"></script>
+    <script src="app/controller/brcaController.js"></script>
+    <script src="app/controller/contactController.js"></script>
 
 
 
@@ -100,8 +107,17 @@ $(document).ready(function(){
 
 </script>
 
+<script type="text/javascript">
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
-    
+</script>
+
+
+    <!-- //contact -->
+    <script src="coba/slide-logo/slide.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
     
 

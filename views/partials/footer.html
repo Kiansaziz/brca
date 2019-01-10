@@ -1,5 +1,9 @@
 
-<a class="menu" ng-init="waOne='assets/images/wa-colored-new-1.png'; waTwo='assets/images/wa-colored-new-2.png'" href="LINK TUJUAN JIKA GAMBAR DIKLIK">
+
+
+
+
+<a class="menu" ng-init="waOne='assets/images/wa-colored-new-1.png'; waTwo='assets/images/wa-colored-new-2.png'" href="https://api.whatsapp.com/send?phone=6289611711597&text=Halo%20Admin%20Saya%20Mau%20Order%20Baju"  data-toggle="tooltip" data-placement="left" title="Message Us">
     <img class="image-wa-1 wa" ng-src="{{waOne}}"/>
     <img class="image-wa-2 wa" ng-src="{{waTwo}}"  />
 </a>
@@ -12,9 +16,12 @@
 </button> -->
 
 
-<a href="#!" class="scroll_To_Top" id="myBtn" ng-init="myUp='assets/images/segitiga.png'">
-  <img class="up" ng-src="{{myUp}}"/> <span><!-- Image goes here. --></span>
+<a href="#!" class="scroll_To_Top" id="myBtn" ng-init="arrowOn='assets/images/Arrow-on.png' ; arrowOff='assets/images/Arrow-off.png'" >
+    <img class="image-panah-1 wa" ng-src="{{arrowOff}}"/>
+    <img class="image-panah-2 wa" ng-src="{{arrowOn}}"  />
 </a>
+
+
 
 
 <script>
@@ -39,6 +46,8 @@
         
     });
 </script>
+
+
 
 
 <script>

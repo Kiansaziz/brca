@@ -22,6 +22,9 @@
 
         $scope.igWhite ="instagram-white.png";
         $scope.igColor = "instagram-colored.png";
+
+        $scope.fb ="https://www.facebook.com/cancervue/";
+        $scope.ig = "https://www.instagram.com/cancervue/";
        
     });
     

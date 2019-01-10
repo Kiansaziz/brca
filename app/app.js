@@ -39,8 +39,15 @@ animateApp.config(["$routeProvider",function($routeProvider) {
             templateUrl: 'views/page-tentang-hasil.html',
             controller : 'hcsController'
         })
+        //layanan-brca
         .when('/layanan-brca',{
-            templateUrl : 'views/page-brca.html'
+            templateUrl : 'views/page-brca.html',
+            controller: 'brcaController'
+        })
+        //contact
+        .when('/contact',{
+            templateUrl : 'views/page-contact.html',
+            controller : 'contactController'
         })
         .otherwise({
             redirectTo : "/"
