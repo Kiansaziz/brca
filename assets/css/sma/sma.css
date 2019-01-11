@@ -1,0 +1,176 @@
+
+@font-face {
+    font-family: "GothamRounded-Medium";
+    src: url('../../bootstrap/fonts/GothamRounded-Medium.otf');
+    }
+@font-face {
+    font-family: "GothamRounded-Book";
+    src: url('../../bootstrap/fonts/GothamRounded-Book.otf');
+    }
+
+
+.bg-sma{
+    background-image: url("../../images/sma/HEADER-IMAGE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding : 165px 0px 165px 0px;
+    width: 100%;
+    height: auto;
+
+    
+}
+
+.sma-logo{
+    display: block;
+    margin-right: auto;
+    width: 75%;
+}
+
+.sma-header{
+    font-family : "GothamRounded-Medium";
+    font-size: "35px";
+    letter-spacing: 1px;
+    color: #a0559d;
+}
+
+.sma-caption{
+    font-family: "GothamRounded-Book";
+    font-size : 22px;
+    margin: 0px 0px;
+    letter-spacing: 1px;
+}
+
+/* buat button */
+.button-sma1{
+    background-color: #d3d3d3;
+    color: white !important;
+    border : 3px solid #d3d3d3;
+    padding: 5px 25px;
+    font-family: "GothamRounded-Book";
+
+    /* animasi  */
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button-sma1:hover {
+    border : 3px solid #a0559d;
+  background-color: #a0559d;
+  color: white !important;
+}
+
+
+
+/* Section 2 */
+.bg-sma-2{
+    margin-top: 100px;
+}
+.sma-header-2{
+    font-family: "GothamRounded-Medium";
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.sma-caption-2{
+    font-family: "GothamRounded-Book";
+    font-size: 22px;
+    text-align: justify;
+    letter-spacing: 1px;
+
+}
+.sma-caption-bawah-2{
+    font-family: "GothamRounded-Book";
+    font-size : 14px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.sma-2-image-position{
+    padding: 55px 0px 0px 25px;
+}
+.sma-2-image{
+   
+    width: 100%;
+    margin: 0;
+}
+
+/* end Section 2 */
+
+
+/* Section 3 */
+.sma-3-li{
+    
+}
+
+
+.bg-sma-3{
+    margin-top: 100px;
+    padding : 0px 85px 0px 5px;
+}
+
+.sma-text-3{
+    margin-top : -25px;
+    margin-bottom: 25px;
+}
+
+.sma-header-3{
+    font-family: "GothamRounded-Medium";
+    font-size: 24px;
+    margin-bottom: 18px;
+    padding-left: 25px;
+    letter-spacing: 1px;
+}
+
+.sma-caption-3{
+    font-family: "GothamRounded-Book";
+    font-size: 22px;
+    text-align: justify;
+    padding-left: 25px;
+    letter-spacing: 1px;
+}
+
+
+.ul-edit ul{
+    list-style: none;
+}
+
+
+.ul-edit ul li::before{
+    content: "\2022";
+    color: #a0559d;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+/* end Section 3 */
+
+/* Section 4 */
+.bg-sma-4{
+    background-image: url("../../images/sma/GIF-cancer.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+
+    padding :280px 0px;
+}
+/* end section 4 */
+
+/* Section 5 */
+.bg-sma-5{
+    background-image: url("../../images/sma/Image-bawah.png");
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+
+    padding : 100px 0px;
+}
+/* end Section 5 */

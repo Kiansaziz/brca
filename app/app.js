@@ -44,6 +44,14 @@ animateApp.config(["$routeProvider",function($routeProvider) {
             templateUrl : 'views/page-brca.html',
             controller: 'brcaController'
         })
+
+        //layanan-sma
+        .when('/layanan-sma', {
+            templateUrl : 'views/page-sma.html',
+            controller : 'smaController'
+        })
+
+
         //contact
         .when('/contact',{
             templateUrl : 'views/page-contact.html',
