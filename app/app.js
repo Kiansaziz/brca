@@ -19,8 +19,8 @@ animateApp.config(["$routeProvider",function($routeProvider) {
 
         // Blog page
         .when('/blog', {
-            templateUrl: 'views/page-about.html',
-            controller: 'aboutController'
+            templateUrl: 'views/page-blog.html',
+            controller: 'blogController'
            
         })
 
@@ -48,6 +48,12 @@ animateApp.config(["$routeProvider",function($routeProvider) {
         //layanan-sma
         .when('/layanan-sma', {
             templateUrl : 'views/page-sma.html',
+            controller : 'smaController'
+        })
+
+        //layanan-detail-sma
+        .when('/layanan-detail-sma',{
+            templateUrl :"views/page-detail-sma.html",
             controller : 'smaController'
         })
 

@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: "GothamRounded-Medium";
+    src: url('../../bootstrap/fonts/GothamRounded-Medium.otf');
+    }
+@font-face {
+    font-family: "GothamRounded-Book";
+    src: url('../../bootstrap/fonts/GothamRounded-Book.otf');
+    }
+@font-face{
+    font-family: "AARDC";
+    src: url('../../bootstrap/fonts/AARDC___.TTF');
+}
+
+
+
+
+.bg-blog{
+    margin-top: 100px;
+}
+@media (min-width: 991px) and (max-width: 1186px) {
+    .bg-blog{
+
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .bg-blog{
+        
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .bg-blog{
+        padding :0px 25px;
+        
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-blog{
+        padding :0px 20px;
+        
+}
+} 
+
+.header-awal-blog{
+    font-family: "GothamRounded-Medium";
+    font-size: 24px;
+}
+.caption-awal-blog{
+    font-family: "GothamRounded-Book";
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 35px; 
+}
+
+.caption-blog{
+    font-family: "GothamRounded-Book";
+    font-size: 14px;
+    text-align: justify;
+}
+.caption-blog-referensi{
+    font-family: "GothamRounded-Book";
+    font-size: 12px;
+    text-align: justify;
+}
+.blog-right{
+    background-color: #d3d3d3;
+    color: black;
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+    margin-top: 60px;
+}
+
+
+
+
+@media (min-width: 991px) and (max-width: 1186px) {
+}
+@media (min-width: 768px) and (max-width: 990px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 480px) {
+} 
